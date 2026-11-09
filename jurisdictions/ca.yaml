@@ -1,0 +1,23 @@
+code: CA
+name: {en: Canada, fr: Canada}
+rows:
+  - id: PRC-022
+    text: {en: "Article 509 of the agreement asks for specifications by performance and function where it fits, based on standards where they exist. A brand may appear only with words such as or equivalent. The agreement does not say how a buyer judges an equivalent.", fr: "L’article 509 de l’accord demande des spécifications fondées sur les performances et les fonctions quand cela convient, et sur des normes quand elles existent. Une marque ne peut y figurer qu’avec des mots comme ou l’équivalent. L’accord ne dit pas comment juger un équivalent."}
+    status: looser
+    source: {title: "Canadian Free Trade Agreement, Chapter Five, Government Procurement, Article 509", date: "2017-07-01", url: "https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement", archive: "https://web.archive.org/web/20260610120207/https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement"}
+    last_checked: "2026-11-08"
+  - id: PRC-024
+    text: {en: "The federal pattern for accessibility asks the contractor for a conformance report at the award, from a third party or a qualified in-house expert. It asks for a plan to fix each gap, and a new report after each significant update and at least once a year. It covers accessibility only.", fr: "Le modèle fédéral sur l’accessibilité demande à l’entrepreneur un rapport de conformité à l’attribution, produit par un tiers ou par un expert interne qualifié. Il demande un plan pour corriger chaque écart, et un nouveau rapport après chaque mise à jour importante et au moins une fois par année. Il ne vise que l’accessibilité."}
+    status: same
+    source: {title: "Government of Canada, GC Catalogue, Accessibility Procurement Language", date: "2024-11-20", url: "https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-EN.html", archive: "https://github.com/gcdigitalpolicy/gccatalogue/blob/a2a8a70282bb2c79a0bec921b936ba2828d3a7f7/patterns/accessibilityprocurement-EN.html"}
+    last_checked: "2026-11-08"
+  - id: PRC-030
+    text: {en: "The digital standards ask departments to share new code under an open license. They set no contract term, and by default the contractor owns the foreground intellectual property of a federal contract.", fr: "Les normes numériques demandent aux ministères de diffuser le nouveau code sous une licence ouverte. Elles ne fixent aucune condition de contrat, et par défaut l’entrepreneur possède la propriété intellectuelle originale d’un contrat fédéral."}
+    status: looser
+    source: {title: "Government of Canada Digital Standards", url: "https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html", archive: "https://web.archive.org/web/20261011062114/https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html"}
+    last_checked: "2026-11-08"
+  - id: PRC-051
+    text: {en: "Article 509, paragraph 4, of the agreement bars a buyer from seeking or accepting advice on the specifications of a specific procurement from a person with a commercial interest, where the advice would preclude competition. It does not ask authors of model clauses to declare their interests.", fr: "Le paragraphe 4 de l’article 509 de l’accord interdit à une entité de demander ou d’accepter, pour les spécifications d’un marché précis, l’avis d’une personne qui a un intérêt commercial, si cet avis empêche la concurrence. Il n’exige pas que les auteurs de clauses types déclarent leurs intérêts."}
+    status: looser
+    source: {title: "Canadian Free Trade Agreement, Chapter Five, Government Procurement, Article 509", date: "2017-07-01", url: "https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement", archive: "https://web.archive.org/web/20260610120207/https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement"}
+    last_checked: "2026-11-08"

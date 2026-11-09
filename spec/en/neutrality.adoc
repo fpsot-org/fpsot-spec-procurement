@@ -1,0 +1,45 @@
+= Neutrality
+include::_fpsot-terms.adoc[]
+
+A body that writes specifications and clause text sits close to each tender that cites them.
+The {abbr-fpsot-first} takes no contracts, so it gains nothing from any tender.
+These three rules make that position public and keep it true.
+
+[[PRC-050]]
+*PRC-050.* {abbr-fpsot} MUST NOT bid on any tender, alone or with others.
+It MUST NOT act as a subcontractor under any tender, and MUST NOT take paid work from one.
+It MUST state this rule in public, on its website and in each {term-clause-pack}.
+Québec bodies treat a supplier that helps prepare a tender as a possible conflict of interest.
+The link:https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[contract policy of the Curateur public] is an example.
+A body that never bids cannot draft a clause to win one.
+
+[[PRC-051]]
+*PRC-051.* Each person who contributes to a pack or a specification MUST declare their commercial interests in a public register.
+It MUST name each employer or client that sells the products or services of the contribution to public bodies.
+The contributor MUST update it within 30 days of a change.
+The {abbr-cfta-first} speaks to this risk in article 509, paragraph 4, of its link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapter on procurement].
+For a specific procurement, it bars advice from a person with a commercial interest, if the advice would preclude competition.
+A public declaration lets a buyer check where the text came from.
+
+[[PRC-052]]
+*PRC-052.* {abbr-fpsot} MUST give help with drafting a tender only through public channels.
+These channels are a published list of questions and answers, and office hours open to anyone.
+The foundation MUST add each answer from the office hours to the published list.
+It MUST NOT name the buyer unless the buyer agrees.
+The foundation MUST NOT give private help to one buyer on one tender.
+Help that every bidder can see gives no bidder an edge.
+
+== References
+
+=== Informative
+
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[Politique en matière de gestion contractuelle impliquant une dépense de fonds publics (ORG-120)], Curateur public du Québec, in force 2024-04-29. link:https://web.archive.org/web/20251031043540/https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[Archived copy]
+* link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[Canadian Free Trade Agreement, Chapter Five, Government Procurement], Internal Trade Secretariat, 2017. link:https://web.archive.org/web/20260610120207/https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

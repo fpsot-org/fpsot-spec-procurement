@@ -26,6 +26,36 @@ jobs:
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       doc-rules: true
+  # Checks the clause modules and builds their editable formats (PRC-004 to PRC-012, DOC-042).
+  # The files are an artifact of the run. Attaching them to a release needs a change to the
+  # shared spec-release workflow.
+  clauses:
+    runs-on: ubuntu-latest
+    env:
+      PANDOC_VERSION: 3.12.1
+      PANDOC_SHA256: b4217ac7c54067c442f9d4cd38bcd0c184a43f3e7053431a12263a6f92a33ba2
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check the modules
+        run: |
+          bash scripts/test-check-clauses.sh
+          bash scripts/check-clauses.sh
+      - name: Install pandoc
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/pandoc.deb" \
+            "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          echo "${PANDOC_SHA256}  $RUNNER_TEMP/pandoc.deb" | sha256sum --check -
+          sudo dpkg -i "$RUNNER_TEMP/pandoc.deb"
+          pandoc --version | head -1
+      - name: Build the OpenDocument and Word files
+        run: bash scripts/build-clauses.sh "$RUNNER_TEMP/clauses"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: clauses
+          path: ${{ runner.temp }}/clauses/
+          if-no-files-found: error
   diagrams:
     if: github.ref_type != 'tag'
     uses: fpsot-org/GitHub-Actions/.github/workflows/diagrams.yml@v0

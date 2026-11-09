@@ -1,0 +1,105 @@
+= The drafting rule
+include::_fpsot-terms.adoc[]
+
+One rule keeps the modules lawful: a tender requires conformance to a specification, never a product.
+Public procurement law in Canada, in Québec and abroad asks buyers to describe needs by performance or function.
+Where a tender names a standard or a brand, it must accept an equivalent.
+These rules apply that principle to each module that cites an {abbr-fpsot-first} specification.
+
+== Cite the specification, not a product
+
+[[PRC-020]]
+*PRC-020.* A module that requires conformance MUST name the {abbr-fpsot} specification and its exact version.
+It MUST also name the {term-conformance-class}es that the buyer requires.
+It MUST NOT accept a later major version without a new tender decision, because a major version can break conformance.
+An exact version tells every bidder what it must meet, and lets the buyer test it.
+
+From version 1.0.0, a module MAY accept a later minor version of the same major version.
+The buyer chooses so in a field.
+Below version 1.0.0, it MAY accept only later patch releases of the same minor version.
+Under link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], a version 0.x can change anything in a minor release.
+
+[[PRC-021]]
+*PRC-021.* A module MUST NOT require software that {abbr-fpsot} makes, a named implementation, a brand or a trade name.
+It MUST NOT require membership in a program, a certificate from {abbr-fpsot} or a listing in its register of results.
+Each module that cites a specification MUST state that the bidder does not have to use {abbr-fpsot} software.
+A tender that names one product favors its supplier, and Québec has annulled tenders for that reason.
+A tender that names a specification lets any supplier compete.
+
+[[PRC-022]]
+*PRC-022.* Each time a module names a specification, a suite or another standard, it MUST add `or equivalent`.
+In French, it MUST add `ou l'équivalent`.
+The module MUST define an equivalent as a solution that meets the same requirements of the same version.
+The bidder MAY show this with the same suite release, or with an equivalent test report.
+The module MUST require the buyer to assess each claim of equivalence on the same footing as any other bid.
+The bidder must know how the buyer judges equivalence, and a public suite gives that test.
+
+[[PRC-023]]
+*PRC-023.* The drafting note of each module MUST state the functional need that the clause meets.
+Examples are interoperability with other systems, reversibility at the end of the contract and reuse by other public bodies.
+A module MUST NOT present a clause as a preference for open source software, or for any kind of supplier.
+In Québec, a law asks public bodies to consider free software, but it sets no preference for it.
+A clause grounded in a need survives a complaint better than a clause grounded in a preference.
+
+== Evidence of conformance
+
+[[PRC-024]]
+*PRC-024.* A module MUST ask each bidder for two items of evidence:
+
+* a {term-conformance-statement}, which says yes or no for each required {term-conformance-class};
+* the machine-readable report of the conformance suite, which names the suite release under TST-046.
+The report gives the outcome of each requirement under TST-048.
+
+The module MUST accept, in place of the suite report, an equivalent test report under PRC-022.
+The parties that PRC-026 allows MAY produce that report.
+A statement alone MUST NOT count as proof of conformance.
+The statement sets what the bidder promises, and the report shows what a test found.
+
+[[PRC-025]]
+*PRC-025.* A module MUST treat the {term-conformance-statement} as a pass or fail condition of the bid.
+The buyer MUST also reject a bid whose report shows that a required class fails a requirement.
+It SHOULD let the buyer run the same suite against the delivered solution, as part of its acceptance tests.
+It MAY let the buyer test the leading bid before the award.
+A product can list a function and still fail to deliver it, so the buyer checks the result itself.
+
+[[PRC-026]]
+*PRC-026.* A module MUST say who may run the suite.
+It may be the bidder, a third party that the bidder chooses, or the buyer.
+The same parties MUST be allowed to produce an equivalent test report, with no stricter condition of independence.
+It MUST NOT require {abbr-fpsot} to run, check or approve a test.
+{abbr-fpsot} judges no bid, under PRC-046.
+A suite that runs anywhere keeps the cost of evidence low for small suppliers.
+
+[[PRC-027]]
+*PRC-027.* A module MUST require a dated plan to fix each failed test in an optional class of the bid.
+It MUST require the same plan when a required class regresses after acceptance.
+It MUST require a new statement and report with each major or minor release of the solution.
+It MUST also require them at least once a year.
+When nothing changed, the supplier MAY confirm this in writing instead.
+
+The federal government uses the same cycle in its link:https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-EN.html[accessibility procurement pattern].
+Conformance can fall with each update, unless the contract holds the supplier to it.
+
+[[PRC-028]]
+*PRC-028.* A module MUST NOT describe a suite result as a certification, an approval or an endorsement by {abbr-fpsot}.
+This applies TST-047 to the text of a tender.
+A suite checks the behaviors it covers, and nothing more.
+The buyer must still assess quality, security and support on its own criteria.
+
+== References
+
+=== Normative
+
+* link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], Tom Preston-Werner, 2.0.0, 2013-06-18. link:https://web.archive.org/web/20261026045444/https://semver.org/spec/v2.0.0.html[Archived copy]
+
+=== Informative
+
+* link:https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-EN.html[Accessibility Procurement Language], Government of Canada, GC Catalogue, 2024-11-20. link:https://github.com/gcdigitalpolicy/gccatalogue/blob/a2a8a70282bb2c79a0bec921b936ba2828d3a7f7/patterns/accessibilityprocurement-EN.html[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===
