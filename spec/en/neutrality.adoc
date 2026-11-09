@@ -17,8 +17,8 @@ A body that never bids cannot draft a clause to win one.
 *PRC-051.* Each person who contributes to a pack or a specification MUST declare their commercial interests in a public register.
 It MUST name each employer or client that sells the products or services of the contribution to public bodies.
 The contributor MUST update it within 30 days of a change.
-The {abbr-cfta-first} speaks to this risk in article 509 of its link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapter on procurement].
-It bars a buyer from advice that limits competition, from a person with a commercial interest.
+The {abbr-cfta-first} speaks to this risk in article 509, paragraph 4, of its link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapter on procurement].
+For a specific procurement, it bars advice from a person with a commercial interest, if the advice would preclude competition.
 A public declaration lets a buyer check where the text came from.
 
 [[PRC-052]]

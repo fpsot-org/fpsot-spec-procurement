@@ -17,8 +17,8 @@ Un organisme qui ne soumissionne jamais ne peut pas rédiger une clause pour en 
 *PRC-051.* Toute personne qui contribue aux trousses ou aux spécifications DOIT déclarer ses intérêts commerciaux dans un registre public.
 La déclaration DOIT nommer chaque employeur ou client qui vend aux organismes publics ce que vise la contribution.
 La personne DOIT la mettre à jour dans les 30 jours d’un changement.
-L’{abbr-cfta-first} traite ce risque à l’article 509 de son link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapitre sur les marchés publics].
-Il interdit à une entité l’avis d’une personne qui a un intérêt commercial, si cet avis limite la concurrence.
+L’{abbr-cfta-first} traite ce risque au paragraphe 4 de l’article 509 de son link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapitre sur les marchés publics].
+Pour un marché précis, il interdit l’avis d’une personne qui a un intérêt commercial, si cet avis empêche la concurrence.
 Une déclaration publique permet à l’organisation acheteuse de vérifier d’où vient le texte.
 
 [[PRC-052]]

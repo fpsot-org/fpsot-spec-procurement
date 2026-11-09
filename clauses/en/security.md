@@ -25,11 +25,13 @@ It cites the FPSOT security specification and adds only contract terms.
 **Your choices.**
 
 - Name the version of the FPSOT security specification.
-- Decide whether the supplier must join the free FPSOT pre-notice list when it runs an FPSOT component for you.
+- Set the times to notify and to fix.
 - Add your own security requirements, such as those of your security directive, in your own clauses.
 
 **Text for all regimes.** The text is the same for Québec public bodies (LCOP and RCTI), Québec municipal bodies (LCOM) and the federal government.
 Your own rules on information security still apply.
+
+**Invitation only.** A supplier that runs an FPSOT component for you may apply to the free FPSOT pre-notice list, under rule SEC-051 of the FPSOT security specification. You may tell bidders so, but do not require it: membership in an FPSOT program cannot be a condition of a bid.
 
 **Mandatory reference.** Only the normative FPSOT specification that your tender cites is the mandatory reference.
 Cite that specification as the requirement, never this module or an FPSOT guide.
@@ -40,14 +42,14 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 
 ### Text for all regimes
 
-1. The supplier must meet these rules of the FPSOT security specification, version [x.y], or equivalent practices:
+1. The supplier must meet these rules of the FPSOT security specification, version [x.y], or equivalent:
    a. a `SECURITY.md` file in each repository of the solution, as rule SEC-063 sets it;
    b. a private channel to report a vulnerability, as rules SEC-040 and SEC-064 set it;
    c. an SBOM for each release, as rule SEC-033 sets it;
    d. the coordinated disclosure of each fixed vulnerability.
-2. The supplier must tell the buyer of each vulnerability that affects the solution within [time to notify] of learning of it, through a channel that the buyer names.
+2. The supplier must tell the buyer of each vulnerability that affects the solution within [time to notify] of learning of it. It uses a channel that the buyer names.
 3. The supplier must fix each vulnerability within the times that the buyer sets for each level of severity: [times to fix].
-4. [Option: When the supplier runs an FPSOT component for the buyer, it must apply to join the free FPSOT pre-notice list, as rule SEC-051 of the FPSOT security specification allows, or an equivalent advance notice from the maintainers of that component.]
+4. The supplier must have a way to receive advance notice of security fixes for each component it runs.
 
 ## Fields
 

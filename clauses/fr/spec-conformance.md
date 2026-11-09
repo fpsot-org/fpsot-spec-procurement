@@ -26,7 +26,7 @@ Ne présentez pas la clause comme une préférence pour le logiciel libre ou pou
 **Vos choix.**
 
 - Choisissez la version exacte de la spécification, et les classes de conformité dont vous avez besoin.
-- Décidez si vous acceptez une version mineure plus récente de la même version majeure.
+- À partir de la version 1.0.0 de la spécification, décidez si vous acceptez une version mineure plus récente de la même version majeure. Avant la version 1.0.0, vous ne pouvez accepter que des versions correctives plus récentes de la même version mineure, car une version 0.x peut tout changer dans une version mineure.
 - Gardez la mention « ou l'équivalent » chaque fois que la clause nomme la spécification ou la suite. Ne la retirez pas.
 - N'ajoutez le nom d'aucun produit, d'aucune implémentation ni d'aucune marque, y compris un logiciel de la FPSOT.
 
@@ -34,36 +34,42 @@ Ne présentez pas la clause comme une préférence pour le logiciel libre ou pou
 Citez la spécification dans votre appel d'offres, jamais ce module ni un guide de la FPSOT.
 
 **État de préparation.** Aucune spécification de la FPSOT ne respecte encore la règle de préparation PRC-040.
-Avant d'en citer une, vérifiez qu'au moins un fournisseur autre que la FPSOT peut la respecter, et consultez votre conseiller juridique.
+Avant d'en citer une, consultez le registre public des résultats : une implémentation que la FPSOT n'a pas faite devrait réussir la suite, avec une entrée non périmée. Sinon, deux intégrateurs indépendants devraient avoir déployé le bloc ouvert en production. Obtenez un avis juridique.
 
 **Pas un avis juridique.** Ce module est une ébauche et ne constitue pas un avis juridique.
-Le critère d'équivalence de cette clause, et son exposition à une plainte, sont des questions ouvertes pour le conseiller juridique.
+Le critère d'équivalence de cette clause, et son exposition à une plainte, sont des questions ouvertes qui exigent un avis juridique.
 
 ## Texte de la clause
 
 ### Variante pour les organismes publics du Québec (LCOP et RCTI)
 
-1. La solution doit être conforme à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent, pour les classes de conformité suivantes : [classes de conformité].
-2. [Option : L'organisme accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
-3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou avec un rapport d'essai équivalent produit par une partie indépendante. L'organisme évalue chaque solution équivalente sur le même pied que toute autre soumission.
+1. La solution doit être conforme à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent. La conformité vise les classes de conformité suivantes : [classes de conformité].
+2. **Versions plus récentes.** [Gardez l'option qui convient à la version, ou retirez ce point.]
+   - [Seulement à partir de la version 1.0.0 : L'organisme accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
+   - [Avant la version 1.0.0 : L'organisme accepte aussi la conformité à une version corrective plus récente de la version [x.y], ou l'équivalent.]
+3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou l'équivalent. Un rapport d'essai équivalent produit par toute partie que permet le module M02 en est un. L'organisme évalue chaque solution équivalente sur le même pied que toute autre soumission.
 4. Le soumissionnaire n'a pas à employer de logiciel de la FPSOT. Aucun certificat, aucune adhésion ni aucune inscription de la FPSOT n'est exigé.
 5. Seul le texte normatif de la spécification fait foi. Pour cet appel d'offres, le texte français de la spécification est la version de référence.
 6. Le soumissionnaire démontre la conformité comme l'exige le module M02 des présents documents d'appel d'offres.
 
 ### Variante pour les organismes municipaux du Québec (LCOM)
 
-1. La solution doit être conforme à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent, pour les classes de conformité suivantes : [classes de conformité].
-2. [Option : L'organisme municipal accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
-3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou avec un rapport d'essai équivalent produit par une partie indépendante. L'organisme municipal accepte toute solution dont le soumissionnaire démontre l'équivalence, et l'évalue sur le même pied que toute autre soumission.
+1. La solution doit être conforme à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent. La conformité vise les classes de conformité suivantes : [classes de conformité].
+2. **Versions plus récentes.** [Gardez l'option qui convient à la version, ou retirez ce point.]
+   - [Seulement à partir de la version 1.0.0 : L'organisme municipal accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
+   - [Avant la version 1.0.0 : L'organisme municipal accepte aussi la conformité à une version corrective plus récente de la version [x.y], ou l'équivalent.]
+3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou l'équivalent. Un rapport d'essai équivalent produit par toute partie que permet le module M02 en est un. L'organisme municipal accepte toute solution dont le soumissionnaire démontre l'équivalence, et l'évalue sur le même pied que toute autre soumission.
 4. Le soumissionnaire n'a pas à employer de logiciel de la FPSOT. Aucun certificat, aucune adhésion ni aucune inscription de la FPSOT n'est exigé.
-5. Seul le texte normatif de la spécification fait foi. Pour cet appel d'offres, le texte français de la spécification est la version de référence.
+5. Seul le texte normatif de la spécification fait foi. Pour cette procédure ouverte, le texte français de la spécification est la version de référence.
 6. Le soumissionnaire démontre la conformité comme l'exige le module M02 des présents documents d'appel d'offres.
 
 ### Variante pour le gouvernement fédéral
 
-1. Les travaux doivent être conformes à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent, pour les classes de conformité suivantes : [classes de conformité].
-2. [Option : Le Canada accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
-3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou avec un rapport d'essai équivalent produit par une partie indépendante. Le Canada évalue chaque solution équivalente sur le même pied que toute autre soumission.
+1. Les travaux doivent être conformes à la spécification de la FPSOT [nom de la spécification], version [x.y], ou l'équivalent. La conformité vise les classes de conformité suivantes : [classes de conformité].
+2. **Versions plus récentes.** [Gardez l'option qui convient à la version, ou retirez ce point.]
+   - [Seulement à partir de la version 1.0.0 : Le Canada accepte aussi la conformité à une version mineure plus récente [x.z] de la même version majeure, ou l'équivalent.]
+   - [Avant la version 1.0.0 : Le Canada accepte aussi la conformité à une version corrective plus récente de la version [x.y], ou l'équivalent.]
+3. Une solution équivalente respecte les mêmes exigences de la même version de la spécification. Le soumissionnaire peut le démontrer avec la même version de la suite de conformité, ou l'équivalent. Un rapport d'essai équivalent produit par toute partie que permet le module M02 en est un. Le Canada évalue chaque solution équivalente sur le même pied que toute autre soumission.
 4. Le soumissionnaire n'a pas à employer de logiciel de la FPSOT. Aucun certificat, aucune adhésion ni aucune inscription de la FPSOT n'est exigé.
 5. Seul le texte normatif de la spécification fait foi. Les textes français et anglais de la spécification ont la même valeur.
 6. Le soumissionnaire démontre la conformité comme l'exige le module M02 de la demande de soumissions.
@@ -75,7 +81,7 @@ Le critère d'équivalence de cette clause, et son exposition à une plainte, so
 | [nom de la spécification] | Le nom de la spécification de la FPSOT, tel que sa page titre le donne. | Aucune |
 | [x.y] | Les numéros majeur et mineur exacts de la version de la spécification. | La dernière version |
 | [classes de conformité] | Les classes de conformité qu'exige votre besoin, sous leur nom dans la spécification. | Aucune |
-| [x.z] | La version mineure la plus récente que vous acceptez, ou retirez l'option. | Retirer l'option |
+| [x.z] | La version mineure la plus récente que vous acceptez, seulement à partir de la version 1.0.0, ou retirez l'option. | Retirer l'option |
 
 ## Mention de la source
 

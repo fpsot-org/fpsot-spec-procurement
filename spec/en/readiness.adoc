@@ -11,11 +11,15 @@ They also set the public register of results that buyers check bids against.
 [[PRC-040]]
 *PRC-040.* {abbr-fpsot} MUST publish a spec-specific {term-clause-pack} only when both of these conditions hold:
 
-* the specification defines {term-conformance-class}es, and a conformance suite that anyone can run tests them, under TST-044 to TST-048;
-* at least one implementation that the foundation did not make passes the suite;
-  or else, at least two integrators can deploy the open building block of the specification.
+* the specification defines {term-conformance-class}es, and a conformance suite that anyone can run tests them, under TST-044 and TST-046;
+  the suite writes its results under TST-048, and makes no claim of endorsement under TST-047;
+* at least one implementation that the foundation did not make passes the suite.
+  Its entry in the register must not be out of date under PRC-045.
+  Or else, at least two integrators have deployed the open building block in production.
+  A public reference shows each deployment.
 
-The integrators of the second condition MUST be independent of {abbr-fpsot} and of each other.
+Two parties are independent when no one controls both, and neither is a subcontractor of the other.
+Each integrator MUST be independent of {abbr-fpsot} and of the other integrators.
 These conditions show that the market can meet the clause.
 A buyer can then defend its tender against a complaint that it favors one supplier.
 
@@ -30,12 +34,14 @@ A buyer that wants to cite such a specification does so at its own risk, with it
 *PRC-042.* Each spec-specific pack MUST include a record of readiness.
 The record MUST give the conformance classes, the release of the suite and the date of the record.
 It MUST list each implementation that passed, with a link to its entry in the register of PRC-044.
-Otherwise, it MUST list each integrator of PRC-040.
+Otherwise, it MUST list each integrator of PRC-040, with its public reference.
+When {abbr-fpsot} made the only implementation that passed, the record MUST say so in plain words.
 A buyer can then show, in its own file, why it judged the market able to compete.
 
 [[PRC-043]]
 *PRC-043.* When a specification stops meeting PRC-040, {abbr-fpsot} MUST mark its pack as a draft again, within 30 days.
-It MUST publish a notice that gives the reason and the date.
+When an entry goes out of date under PRC-045, the 30 days start on that day.
+The foundation MUST publish a notice that gives the reason and the date.
 This happens, for example, when the only outside implementation withdraws.
 A tender that a buyer already published stays under its own law, but new tenders get a fair warning.
 

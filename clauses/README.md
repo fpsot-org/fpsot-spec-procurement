@@ -10,6 +10,18 @@ The modules are under the Creative Commons Attribution 4.0 International license
 Creative Commons also publishes an official French version: https://creativecommons.org/licenses/by/4.0/legalcode.fr.
 The specification itself stays under the Community Specification License 1.0.
 
+## Credit in a tender
+
+CC BY 4.0 asks each user to credit the source and state its changes. Each module gives a credit line.
+FPSOT accepts as reasonable a credit placed in the procurement file of the buyer, or in an annex of the tender.
+Under section 3(a)(3) of the license, FPSOT asks that no credit appear in the signed contract itself.
+
+## Plain language
+
+The clause text should follow the plain-language rules of the FPSOT writing specification: short sentences, active voice, common words.
+Legal terms take priority, such as the terms of the RCTI, the LCOM or the federal standard clauses.
+A sentence of more than 25 words is split where its meaning survives the split.
+
 ## Format
 
 The modules are Markdown files. Markdown keeps each module plain text, so every change shows in a pull request.

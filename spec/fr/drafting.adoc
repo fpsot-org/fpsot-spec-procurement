@@ -12,10 +12,14 @@ Ces règles appliquent ce principe à chaque module qui cite une spécification 
 [[PRC-020]]
 *PRC-020.* Un module qui exige la conformité DOIT nommer la spécification de la {abbr-fpsot} et sa version exacte.
 Il DOIT aussi nommer chaque {term-conformance-class} qu’exige l’organisation acheteuse.
-Il PEUT accepter une version mineure plus récente de la même version majeure, si l’organisation le choisit dans un champ.
 Il NE DOIT PAS accepter une version majeure plus récente sans nouvelle décision.
 Une version majeure peut en effet rompre la conformité.
 Une version exacte dit à chaque entreprise ce qu’elle doit respecter, et permet à l’organisation de le tester.
+
+À partir de la version 1.0.0, un module PEUT accepter une version mineure plus récente de la même version majeure.
+L’organisation le choisit alors dans un champ.
+Avant la version 1.0.0, il PEUT accepter seulement les versions correctives plus récentes de la même version mineure.
+Selon link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], une version 0.x peut tout changer dans une version mineure.
 
 [[PRC-021]]
 *PRC-021.* Un module NE DOIT PAS exiger de logiciel de la {abbr-fpsot} ni d’implémentation nommée.
@@ -29,7 +33,7 @@ Un appel d’offres qui nomme une spécification permet à tout fournisseur de c
 *PRC-022.* Chaque fois qu’un module nomme une spécification, une suite ou une autre norme, il DOIT ajouter `ou l'équivalent`.
 En anglais, il DOIT ajouter `or equivalent`.
 Le module DOIT définir un équivalent comme une solution qui respecte les mêmes exigences de la même version.
-L’entreprise PEUT le démontrer avec la même version de la suite, ou avec le rapport d’essai d’une partie indépendante.
+L’entreprise PEUT le démontrer avec la même version de la suite, ou avec un rapport d’essai équivalent.
 Le module DOIT exiger que l’organisation évalue chaque équivalent sur le même pied que toute autre soumission.
 L’entreprise doit savoir comment l’organisation juge l’équivalence, et une suite publique fournit ce critère.
 
@@ -50,27 +54,32 @@ Une clause fondée sur un besoin résiste mieux à une plainte qu’une clause f
 Le rapport donne le résultat de chaque exigence selon TST-048.
 
 Le module DOIT accepter, au lieu du rapport de la suite, un rapport d’essai équivalent selon PRC-022.
+Les parties que permet PRC-026 PEUVENT produire ce rapport.
 Une déclaration seule NE DOIT PAS valoir preuve de conformité.
 La déclaration fixe ce que l’entreprise promet, et le rapport montre ce qu’un essai a trouvé.
 
 [[PRC-025]]
 *PRC-025.* Un module DOIT traiter la déclaration de conformité comme une condition éliminatoire de la soumission.
+Un rapport qui montre l’échec d’une exigence d’une classe exigée DOIT aussi entraîner le rejet de la soumission.
 Il DEVRAIT permettre à l’organisation d’exécuter la même suite sur la solution livrée, dans ses essais d’acceptation.
-Il PEUT lui permettre d’essayer la soumission en tête avant l’adjudication.
+Il PEUT lui permettre d’essayer la soumission la mieux classée avant l’adjudication.
 Un produit peut annoncer une fonction sans la fournir, d’où la vérification par l’organisation elle-même.
 
 [[PRC-026]]
 *PRC-026.* Un module DOIT dire qui peut exécuter la suite.
 Ce peut être l’entreprise, un tiers qu’elle choisit, ou l’organisation acheteuse.
+Les mêmes parties DOIVENT pouvoir produire un rapport d’essai équivalent, sans condition d’indépendance plus stricte.
 Il NE DOIT PAS exiger que la {abbr-fpsot} exécute, vérifie ou approuve un essai.
 La {abbr-fpsot} ne juge aucune soumission, selon PRC-046.
 Une suite qui s’exécute partout garde bas le coût de la preuve pour les petites entreprises.
 
 [[PRC-027]]
-*PRC-027.* Un module DOIT exiger un plan pour corriger chaque écart de la preuve, avec une date pour chaque correction.
+*PRC-027.* Un module DOIT exiger un plan daté pour corriger chaque exigence échouée d’une classe facultative offerte.
+Il DOIT exiger de même pour une régression d’une classe exigée après l’acceptation.
 Il DOIT exiger une nouvelle déclaration et un nouveau rapport à chaque version majeure ou mineure de la solution.
 Il DOIT aussi les exiger au moins une fois par année.
 Si rien n’a changé, le fournisseur PEUT plutôt le confirmer par écrit.
+
 Le gouvernement fédéral emploie le même cycle dans son link:https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-FR.html[modèle d’approvisionnement accessible].
 La conformité peut baisser à chaque mise à jour, sauf si le contrat y oblige le fournisseur.
 
@@ -81,6 +90,10 @@ Une suite vérifie les comportements qu’elle couvre, et rien de plus.
 L’organisation doit quand même évaluer la qualité, la sécurité et le soutien selon ses propres critères.
 
 == Références
+
+=== Références normatives
+
+* link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], Tom Preston-Werner, 2.0.0, 2013-06-18. link:https://web.archive.org/web/20261026045444/https://semver.org/spec/v2.0.0.html[Copie archivée]
 
 === Références informatives
 

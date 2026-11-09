@@ -3,6 +3,8 @@
 #
 # Checks the clause modules in clauses/en and clauses/fr (PRC-004, PRC-006, PRC-007,
 # PRC-012, PRC-022). Run it from the repository root, or pass the clauses folder.
+# In every module, each numbered clause line that names an FPSOT specification with its
+# version, or a suite, must also hold "or equivalent" (en) or « ou l'équivalent » (fr).
 # Exit code 1 when a check fails.
 set -uo pipefail
 dir=${1:-clauses}
@@ -15,6 +17,9 @@ license_en='^© [0-9]{4} The FPSOT Authors\. Licensed under CC BY 4\.0\.$'
 license_fr='^© [0-9]{4} Les auteurs de la FPSOT\. Publié sous la licence CC BY 4\.0\.$'
 equiv_en='or equivalent'
 equiv_fr="ou l['’]équivalent"
+# A numbered clause line ("1. ", "a. ") that names a specification with its version, or a suite.
+trigger_en='FPSOT[^.]*specification[^.]*, version|(^|[^[:alpha:]])suite([^[:alpha:]]|$)'
+trigger_fr='spécification de la FPSOT[^.]*, version|(^|[^[:alpha:]])suite([^[:alpha:]]|$)'
 # Modules whose every variant must say "or equivalent" (PRC-022).
 equiv_modules=(spec-conformance.md conformance-evidence.md)
 
@@ -26,8 +31,8 @@ fi
 for lang in en fr; do
   [ -d "$dir/$lang" ] || { fail "$dir/$lang is missing"; continue; }
   other=fr; [ "$lang" = fr ] && other=en
-  if [ "$lang" = en ]; then banner=$banner_en; lic=$license_en; equiv=$equiv_en
-  else banner=$banner_fr; lic=$license_fr; equiv=$equiv_fr; fi
+  if [ "$lang" = en ]; then banner=$banner_en; lic=$license_en; equiv=$equiv_en; trigger=$trigger_en
+  else banner=$banner_fr; lic=$license_fr; equiv=$equiv_fr; trigger=$trigger_fr; fi
   shopt -s nullglob
   files=("$dir/$lang"/*.md)
   [ "${#files[@]}" -gt 0 ] || fail "$dir/$lang holds no module"
@@ -37,6 +42,11 @@ for lang in en fr; do
     # The banner is the first line, and the license line comes within the first 5 lines.
     [ "$(head -1 "$f")" = "$banner" ] || fail "$f: the first line must be the draft banner"
     head -5 "$f" | grep -qE "$lic" || fail "$f: the license line is missing near the top"
+    # Each numbered line that names a versioned specification or a suite keeps the equivalence words.
+    awk -v trig="$trigger" -v re="$equiv" -v f="$f" '
+      /^[[:space:]]*([0-9]+|[a-z])\. / && $0 ~ trig && $0 !~ re {
+        print "error: " f ":" NR ": a clause line names a specification or a suite without the equivalence words"; bad=1 }
+      END { exit bad }' "$f" || status=1
     for m in "${equiv_modules[@]}"; do
       [ "$name" = "$m" ] || continue
       # Each variant section (### heading) must contain the equivalence words.

@@ -51,6 +51,11 @@ La spécification elle-même DOIT rester sous la {abbr-csl-first}.
 Chaque module DOIT proposer une courte mention de la source que l’organisation acheteuse peut placer dans son appel d’offres.
 L’organisation peut alors adapter et publier un module, et les clauses de brevets de la {abbr-csl} restent sur la spécification.
 
+Chaque trousse DOIT indiquer qu’une mention de la source au dossier d’approvisionnement, ou en annexe de l’appel d’offres, est raisonnable.
+Elle DOIT aussi demander qu’aucune mention ne figure dans le contrat signé.
+L’article `3(a)(3)` de la licence permet au concédant de le demander.
+Le contrat ne porte alors que les conditions des parties.
+
 [[PRC-007]]
 *PRC-007.* Chaque module DOIT porter, près de son début, un avis d’une ligne sur ses droits et sa licence.
 En français, cette ligne DOIT être `© <année> Les auteurs de la FPSOT. Publié sous la licence CC BY 4.0.`.
@@ -71,9 +76,9 @@ Chaque personne reçoit quand même un fichier qu’ouvrent les logiciels de bur
 [[PRC-009]]
 *PRC-009.* Chaque trousse et chaque module DOIVENT indiquer qu’ils ne constituent pas un avis juridique.
 Un module NE DOIT PAS énoncer un point de droit comme un fait, sauf si sa note cite la source.
-Un point qui exige un juriste DOIT figurer dans la note, ou à la page xref:counsel.adoc[Questions pour le conseiller juridique].
+Un point qui exige un juriste DOIT figurer dans la note, ou à la page xref:counsel.adoc[Questions pour un avis juridique].
 Le droit des marchés publics varie selon le régime et change souvent.
-L’organisation acheteuse doit vérifier chaque clause avec son propre conseiller juridique.
+L’organisation acheteuse doit vérifier chaque clause avec son propre service juridique.
 
 == Références
 
@@ -83,7 +88,7 @@ L’organisation acheteuse doit vérifier chaque clause avec son propre conseill
 
 === Références informatives
 
-* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, mise à jour du 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Copie archivée]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, mise à jour du 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Copie archivée d’une version antérieure]
 * link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[OGC 15-002r5, OGC Compliance Overview, Guide for Software Acquisition], Open Geospatial Consortium, r5, 2015-04-20. link:https://web.archive.org/web/20261028134225/https://docs.ogc.org/wp/15-002r5/15-002r5.html[Copie archivée]
 
 == Historique du document

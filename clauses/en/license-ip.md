@@ -45,7 +45,7 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 
 ### Variant for Québec public bodies (LCOP and RCTI)
 
-1. **Default license.** When the supplier keeps the copyright in software it develops under the contract, it grants the organization a license that is non-exclusive, irrevocable, without limit of time or territory and free of royalties. The license lets another public body use the software on the same terms.
+1. **Default license.** The supplier may keep the copyright in software it develops under the contract. In that case, it grants the organization a license that is non-exclusive, irrevocable, without limit of time or territory and free of royalties. The license lets another public body use the software on the same terms.
 2. **Open source license.** In addition, the supplier must deliver the source code of each custom deliverable under a license that the OSI approves, as follows:
    a. a contribution to an existing open source project is under the license of that project;
    b. a new deliverable that stands alone is under one of these licenses, at the choice of the organization: [list of licenses].
@@ -53,7 +53,7 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 
 ### Variant for Québec municipal bodies (LCOM)
 
-1. **License to the municipal body.** When the supplier keeps the copyright in software it develops under the contract, it grants the municipal body a license that is non-exclusive, irrevocable, without limit of time or territory and free of royalties. The license lets another public body use the software on the same terms.
+1. **License to the municipal body.** The supplier may keep the copyright in software it develops under the contract. In that case, it grants the municipal body a license that is non-exclusive, irrevocable, without limit of time or territory and free of royalties. The license lets another public body use the software on the same terms.
 2. **Open source license.** In addition, the supplier must deliver the source code of each custom deliverable under a license that the OSI approves, as follows:
    a. a contribution to an existing open source project is under the license of that project;
    b. a new deliverable that stands alone is under one of these licenses, at the choice of the municipal body: [list of licenses].

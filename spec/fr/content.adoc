@@ -75,6 +75,7 @@ Sa variante fédérale DOIT ajouter la norme link:https://accessible.canada.ca/c
 Le module DOIT demander un rapport de conformité avec une analyse des écarts dans la soumission et à l’attribution.
 Il DOIT exiger les corrections dans un délai convenu.
 
+Le module PEUT offrir à l’organisation un essai de la soumission la mieux classée avant l’adjudication, selon ACC-057.
 La spécification sur l’accessibilité fixe chaque valeur, et ce module la cite sans en changer aucune.
 
 == Langue
@@ -97,7 +98,9 @@ Quand l’entreprise livre un produit de la {abbr-fpsot}, LOC-003 et LOC-030 exi
 * la divulgation coordonnée de chaque vulnérabilité corrigée.
 
 Il DOIT nommer la version de la spécification sur la sécurité qu’il cite.
-Il DEVRAIT inviter chaque fournisseur qui exploite un composant de la {abbr-fpsot} à adhérer au préavis de SEC-051.
+Le fournisseur DOIT avoir un moyen d’obtenir un préavis des correctifs de sécurité de chaque composant qu’il exploite.
+La note de rédaction DEVRAIT inviter ce fournisseur à adhérer au préavis de SEC-051 pour un composant de la {abbr-fpsot}.
+Le module NE DOIT PAS faire de cette adhésion une exigence, car PRC-021 interdit d’exiger un tel programme.
 L’organisation apprend alors une correction avant le public, par le fournisseur qui exploite son système.
 
 == Adjudication et coût
@@ -119,22 +122,26 @@ Les pondérations par défaut sont :
 
 Les link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[lignes directrices d’Interoperable Europe sur les marchés publics] recommandent aussi ces seuils et ces échelles.
 Un critère que respecte chaque soumission ne dit rien de la meilleure.
+Le module PEUT ajouter un critère facultatif sur l’accessibilité au-delà du seuil, avec une pondération prise sur les autres.
 
 Quand un règlement fixe sa propre échelle, le module DOIT y faire correspondre ses repères.
 Par exemple, le {abbr-rcti-first} note chaque critère de 0 à 100 et fixe à 70 le niveau de performance acceptable.
 
 [[PRC-039]]
-*PRC-039.* Le module M08 DOIT comprendre une grille des éléments de coût, que l’organisation remplit avant de publier l’appel d’offres.
-La grille DOIT donner une formule pour chaque coût : licence, évolution, interopérabilité, formation, soutien et migration à la sortie.
+*PRC-039.* Le module M08 DOIT comprendre un tableau des éléments de coût, que l’organisation remplit avant de publier l’appel d’offres.
+Le tableau DOIT donner une formule pour chaque coût : licence, évolution, interopérabilité, formation, soutien et migration à la sortie.
 La variante {abbr-rcti} DOIT s’appuyer sur l’article du {abbr-rcti} sur les coûts additionnels, pour les contrats qui comprennent des biens.
 Cet article exige que les documents d’appel d’offres nomment d’avance des éléments quantifiables et mesurables.
+Seuls les coûts non inclus dans le prix soumis comptent dans cet ajustement.
+Le tableau DOIT donc demander si le prix soumis inclut chaque élément.
+
 La variante {abbr-lcom-first} DOIT indiquer que les organismes municipaux ne peuvent pas encore ajuster les prix pour ces coûts.
-Dans cette variante, la grille sert seulement à l’évaluation des besoins.
+Dans cette variante, le tableau sert seulement à l’évaluation des besoins.
 
 Le module DOIT demander à chaque entreprise de nommer chaque fonction qui exige une édition payante.
 Il DOIT en compter le coût.
 Il NE DOIT PAS donner de points pour un lien avec la {abbr-fpsot}, comme une adhésion ou un parrainage.
-La dépendance se voit dans les coûts de licence, d’évolution et de migration, et la grille les montre avant l’adjudication.
+La dépendance se voit dans les coûts de licence, d’évolution et de migration, et le tableau les montre avant l’adjudication.
 
 == Références
 

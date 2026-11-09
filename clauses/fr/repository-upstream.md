@@ -42,7 +42,7 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 1. **Dépôt.** Le fournisseur doit tenir le dépôt source complet de chaque livrable sur mesure, avec son historique des changements, sur [forge] sous le contrôle de l'acheteur. Le dépôt doit contenir tout ce qu'il faut pour construire chaque version.
 2. **Projet d'origine.** Chaque changement que le fournisseur apporte à un projet libre existant doit être versé à ce projet, selon son processus habituel de contribution.
 3. **Bifurcations.** Si le projet n'accepte pas un changement, le fournisseur peut le garder dans une bifurcation. Le fournisseur doit documenter chaque bifurcation : sa raison, ses différences avec le projet, et un plan pour la fusionner ou la retirer. Une bifurcation non documentée est un défaut que le fournisseur doit corriger à ses frais.
-4. **Nomenclature logicielle.** À chaque version, le fournisseur doit livrer une nomenclature logicielle pour chaque artefact logiciel, comme la fixent les règles SEC-033 et SEC-034 de la spécification de la FPSOT sur la sécurité, version [x.y], ou l'équivalent. La nomenclature doit découler des dépendances que la construction a résolues.
+4. **Nomenclature logicielle.** À chaque version, le fournisseur doit livrer une nomenclature logicielle pour chaque artefact logiciel. La nomenclature respecte les règles SEC-033 et SEC-034 de la spécification de la FPSOT sur la sécurité, version [x.y], ou l'équivalent. La nomenclature doit découler des dépendances que la construction a résolues.
 5. **Construction.** Le fournisseur doit documenter comment construire chaque version à partir du dépôt, sans outil ni service que l'acheteur ne peut pas obtenir.
 
 ## Champs

@@ -25,7 +25,8 @@ It applies rules ACC-055 to ACC-058 of the FPSOT accessibility specification, an
 **Your choices.**
 
 - Set the time the supplier has to fix a failure.
-- Give accessibility a weight in the scoring of module M08.
+- Give accessibility a weight in the scoring of module M08, with its optional criterion.
+- Decide whether you test a sample of the highest-ranked bid before the award.
 
 **Regimes.** Québec bodies add the Québec standard SGQRI 008 3.0. Federal bodies add the Canadian edition of EN 301 549.
 
@@ -44,6 +45,7 @@ Cite those texts as the requirement, never this module or an FPSOT guide.
 4. At the award, the supplier must give an updated conformance report.
 5. The supplier must fix each accessibility failure within [time to fix] of its report.
 6. The supplier must give a new conformance report with each major release.
+7. [Option: Before the award, the organization may test a sample of the solution of the highest-ranked bidder. The test uses the manual checks of rule ACC-043 of the FPSOT accessibility specification, or equivalent, as rule ACC-057 recommends.]
 
 ### Variant for Québec municipal bodies (LCOM)
 
@@ -53,6 +55,7 @@ Cite those texts as the requirement, never this module or an FPSOT guide.
 4. At the award, the supplier must give an updated conformance report.
 5. The supplier must fix each accessibility failure within [time to fix] of its report.
 6. The supplier must give a new conformance report with each major release.
+7. [Option: Before the award, the municipal body may test a sample of the solution of the highest-ranked bidder. The test uses the manual checks of rule ACC-043 of the FPSOT accessibility specification, or equivalent, as rule ACC-057 recommends.]
 
 ### Variant for the federal government
 
@@ -62,6 +65,7 @@ Cite those texts as the requirement, never this module or an FPSOT guide.
 4. At contract award, the Contractor must give an updated conformance report.
 5. The Contractor must fix each accessibility failure within [time to fix] of its report.
 6. The Contractor must give a new conformance report with each major release.
+7. [Option: Before contract award, Canada may test a sample of the solution of the highest-ranked Bidder. The test uses the manual checks of rule ACC-043 of the FPSOT accessibility specification, or equivalent, as rule ACC-057 recommends.]
 
 ## Fields
 

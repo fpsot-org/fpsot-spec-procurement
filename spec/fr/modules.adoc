@@ -63,7 +63,7 @@ Une organisation qui emploie la version 1.2.0 voit alors si la version 1.3.0 cha
 Le titre de chaque variante DOIT nommer son régime.
 Un module qui n’a qu’un texte pour tous les régimes DOIT le dire dans sa note de rédaction.
 Les deux régimes du Québec fixent des règles différentes sur les mêmes points.
-Par exemple, le {abbr-rcti} permet à un organisme provincial d’ajouter des coûts aux prix soumis.
+Par exemple, pour un contrat qui comprend des biens, le {abbr-rcti} permet d’ajouter des coûts aux prix soumis.
 Un organisme municipal ne peut pas encore le faire, selon le link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[guide sur la loi] du ministère.
 
 [[PRC-016]]

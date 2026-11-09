@@ -26,7 +26,7 @@ Do not present the clause as a preference for open source software or for a kind
 **Your choices.**
 
 - Pick the exact version of the specification, and the conformance classes you need.
-- Decide whether you accept a later minor version of the same major version.
+- From version 1.0.0 of the specification, decide whether you accept a later minor version of the same major version. Below version 1.0.0, you may accept only later patch releases of the same minor version, since a version 0.x can change anything in a minor release.
 - Keep the words "or equivalent" each time the clause names the specification or the suite. Do not remove them.
 - Do not add the name of any product, implementation or brand, including software made by FPSOT.
 
@@ -34,7 +34,7 @@ Do not present the clause as a preference for open source software or for a kind
 Cite the specification in your tender, never this module or an FPSOT guide.
 
 **Readiness.** No FPSOT specification meets the readiness rule PRC-040 yet.
-Before you cite one, check that at least one supplier other than FPSOT can meet it, and ask your counsel.
+Before you cite one, check the public register of results: an implementation that FPSOT did not make should pass the suite, with an entry that is not out of date. Or else, two independent integrators should have deployed the open building block in production. Ask your counsel.
 
 **Not legal advice.** This module is a draft and is not legal advice.
 The equivalence test of this clause, and its exposure to a complaint, are open questions for counsel.
@@ -43,27 +43,33 @@ The equivalence test of this clause, and its exposure to a complaint, are open q
 
 ### Variant for Québec public bodies (LCOP and RCTI)
 
-1. The solution must conform to the FPSOT specification [specification name], version [x.y], or equivalent, for these conformance classes: [conformance classes].
-2. [Option: The organization also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
-3. An equivalent solution is one that meets the same requirements of the same version of the specification. The bidder may show this with the same release of the conformance suite, or with an equivalent test report from an independent party. The organization assesses each equivalent solution on the same footing as any other bid.
+1. The solution must conform to the FPSOT specification [specification name], version [x.y], or equivalent. Conformance covers these conformance classes: [conformance classes].
+2. **Later versions.** [Keep one option that fits the version, or remove this item.]
+   - [From version 1.0.0 only: The organization also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
+   - [Below version 1.0.0: The organization also accepts conformance to a later patch release of version [x.y], or equivalent.]
+3. An equivalent solution is one that meets the same requirements of the same version of the specification. The bidder may show this with the same release of the conformance suite, or equivalent. An equivalent test report from any party that module M02 allows is such an equivalent. The organization assesses each equivalent solution on the same footing as any other bid.
 4. The bidder does not have to use software made by FPSOT. No FPSOT certificate, membership or listing is required.
 5. Only the normative text of the specification is the reference. For this tender, the French text of the specification is the reference version.
 6. The bidder shows conformance as module M02 of these tender documents requires.
 
 ### Variant for Québec municipal bodies (LCOM)
 
-1. The solution must conform to the FPSOT specification [specification name], version [x.y], or equivalent, for these conformance classes: [conformance classes].
-2. [Option: The municipal body also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
-3. An equivalent solution is one that meets the same requirements of the same version of the specification. The bidder may show this with the same release of the conformance suite, or with an equivalent test report from an independent party. The municipal body accepts any solution whose equivalence the bidder shows, and assesses it on the same footing as any other bid.
+1. The solution must conform to the FPSOT specification [specification name], version [x.y], or equivalent. Conformance covers these conformance classes: [conformance classes].
+2. **Later versions.** [Keep one option that fits the version, or remove this item.]
+   - [From version 1.0.0 only: The municipal body also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
+   - [Below version 1.0.0: The municipal body also accepts conformance to a later patch release of version [x.y], or equivalent.]
+3. An equivalent solution is one that meets the same requirements of the same version of the specification. The bidder may show this with the same release of the conformance suite, or equivalent. An equivalent test report from any party that module M02 allows is such an equivalent. The municipal body accepts any solution whose equivalence the bidder shows, and assesses it on the same footing as any other bid.
 4. The bidder does not have to use software made by FPSOT. No FPSOT certificate, membership or listing is required.
-5. Only the normative text of the specification is the reference. For this tender, the French text of the specification is the reference version.
+5. Only the normative text of the specification is the reference. For this open procedure, the French text of the specification is the reference version.
 6. The bidder shows conformance as module M02 of these tender documents requires.
 
 ### Variant for the federal government
 
-1. The Work must conform to the FPSOT specification [specification name], version [x.y], or equivalent, for these conformance classes: [conformance classes].
-2. [Option: Canada also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
-3. An equivalent solution is one that meets the same requirements of the same version of the specification. The Bidder may show this with the same release of the conformance suite, or with an equivalent test report from an independent party. Canada assesses each equivalent solution on the same footing as any other bid.
+1. The Work must conform to the FPSOT specification [specification name], version [x.y], or equivalent. Conformance covers these conformance classes: [conformance classes].
+2. **Later versions.** [Keep one option that fits the version, or remove this item.]
+   - [From version 1.0.0 only: Canada also accepts conformance to a later minor version [x.z] of the same major version, or equivalent.]
+   - [Below version 1.0.0: Canada also accepts conformance to a later patch release of version [x.y], or equivalent.]
+3. An equivalent solution is one that meets the same requirements of the same version of the specification. The Bidder may show this with the same release of the conformance suite, or equivalent. An equivalent test report from any party that module M02 allows is such an equivalent. Canada assesses each equivalent solution on the same footing as any other bid.
 4. The Bidder does not have to use software made by FPSOT. No FPSOT certificate, membership or listing is required.
 5. Only the normative text of the specification is the reference. The English and French texts of the specification have the same standing.
 6. The Bidder shows conformance as module M02 of the solicitation requires.
@@ -75,7 +81,7 @@ The equivalence test of this clause, and its exposure to a complaint, are open q
 | [specification name] | The name of the FPSOT specification, as its title page gives it. | None |
 | [x.y] | The exact major and minor version of the specification. | The latest release |
 | [conformance classes] | The conformance classes that your need requires, by their names in the specification. | None |
-| [x.z] | The highest later minor version you accept, or remove the option. | Remove the option |
+| [x.z] | The highest later minor version you accept, only from version 1.0.0, or remove the option. | Remove the option |
 
 ## Credit line
 

@@ -26,7 +26,7 @@ The government purchasing center could do the same for many bodies.
 == Price request to qualified suppliers
 
 Since the reform of 2025, a body may qualify suppliers first, then ask only them for a price.
-The text that the foundation read places this route in articles 54 to 56.7 of the {abbr-rcti}.
+The text that the foundation read places this route in articles 54 to 56.8 of the {abbr-rcti}.
 A qualification can rest on conformance evidence, such as the statement and report of PRC-024.
 The price request then stays short.
 
@@ -64,7 +64,7 @@ This version names the route only.
 
 === Informative
 
-* link:https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Règlement sur les contrats des organismes publics en matière de technologies de l'information, chapitre C-65.1, r. 5.1], Publications du Québec, consolidated text current to 2026-10-02. link:https://web.archive.org/web/20251013203306/https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Archived copy]
+* link:https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Règlement sur les contrats des organismes publics en matière de technologies de l'information, chapitre C-65.1, r. 5.1], Publications du Québec, consolidated text current to 2026-10-02. link:https://web.archive.org/web/20251013203306/https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Archived copy of an earlier version]
 * link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Gestion contractuelle municipale, Guide explicatif Muni-Express, Loi sur les contrats des organismes municipaux], Ministère des Affaires municipales et de l'Habitation, 2nd edition, 2026. link:https://web.archive.org/web/20260516045028/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Archived copy]
 * link:https://www.ontario.ca/page/ontarios-digital-and-data-directive-2021[Ontario's Digital and Data Directive, 2021], Government of Ontario. link:https://web.archive.org/web/20260828113235/https://www.ontario.ca/page/ontarios-digital-and-data-directive-2021[Archived copy]
 

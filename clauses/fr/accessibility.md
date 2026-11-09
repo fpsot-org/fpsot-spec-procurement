@@ -25,7 +25,8 @@ Elle applique les règles ACC-055 à ACC-058 de la spécification de la FPSOT su
 **Vos choix.**
 
 - Fixez le délai dont dispose le fournisseur pour corriger une non-conformité.
-- Donnez une pondération à l'accessibilité dans la notation du module M08.
+- Donnez une pondération à l'accessibilité dans la notation du module M08, avec son critère facultatif.
+- Décidez si vous mettez à l'essai un échantillon de la soumission la mieux classée avant l'adjudication.
 
 **Régimes.** Les organismes québécois ajoutent le standard québécois SGQRI 008 3.0. Les organismes fédéraux ajoutent l'édition canadienne de la norme EN 301 549.
 
@@ -41,9 +42,10 @@ Citez ces textes comme exigences, jamais ce module ni un guide de la FPSOT.
 1. La solution doit respecter la spécification de la FPSOT sur l'accessibilité, version [x.y], règles ACC-001 à ACC-003, ou l'équivalent. Ces règles exigent les WCAG 2.2 au niveau AA et quatre autres critères.
 2. La solution doit aussi respecter la norme EN 301 549 V4.1.1 et le standard québécois SGQRI 008 3.0, ou l'équivalent.
 3. Avec sa soumission, le soumissionnaire doit fournir un rapport de conformité avec une analyse des écarts pour chaque norme exigée. Le rapport doit reposer sur un registre d'essai qui respecte la règle ACC-045 de la spécification de la FPSOT sur l'accessibilité, ou l'équivalent.
-4. À l'attribution, le prestataire de services doit fournir un rapport de conformité à jour.
+4. À l'adjudication, le prestataire de services doit fournir un rapport de conformité à jour.
 5. Le prestataire de services doit corriger chaque non-conformité en matière d'accessibilité dans les [délai de correction] suivant son signalement.
 6. Le prestataire de services doit fournir un nouveau rapport de conformité à chaque version majeure.
+7. [Option : Avant l'adjudication, l'organisme peut mettre à l'essai un échantillon de la solution du soumissionnaire le mieux classé. L'essai suit les vérifications manuelles de la règle ACC-043 de la spécification de la FPSOT sur l'accessibilité, ou l'équivalent, comme le recommande la règle ACC-057.]
 
 ### Variante pour les organismes municipaux du Québec (LCOM)
 
@@ -53,6 +55,7 @@ Citez ces textes comme exigences, jamais ce module ni un guide de la FPSOT.
 4. À l'attribution, le prestataire de services doit fournir un rapport de conformité à jour.
 5. Le prestataire de services doit corriger chaque non-conformité en matière d'accessibilité dans les [délai de correction] suivant son signalement.
 6. Le prestataire de services doit fournir un nouveau rapport de conformité à chaque version majeure.
+7. [Option : Avant l'attribution, l'organisme municipal peut mettre à l'essai un échantillon de la solution du soumissionnaire le mieux classé. L'essai suit les vérifications manuelles de la règle ACC-043 de la spécification de la FPSOT sur l'accessibilité, ou l'équivalent, comme le recommande la règle ACC-057.]
 
 ### Variante pour le gouvernement fédéral
 
@@ -62,6 +65,7 @@ Citez ces textes comme exigences, jamais ce module ni un guide de la FPSOT.
 4. À l'attribution du contrat, l'entrepreneur doit fournir un rapport de conformité à jour.
 5. L'entrepreneur doit corriger chaque non-conformité en matière d'accessibilité dans les [délai de correction] suivant son signalement.
 6. L'entrepreneur doit fournir un nouveau rapport de conformité à chaque version majeure.
+7. [Option : Avant l'attribution du contrat, le Canada peut mettre à l'essai un échantillon de la solution du soumissionnaire le mieux classé. L'essai suit les vérifications manuelles de la règle ACC-043 de la spécification de la FPSOT sur l'accessibilité, ou l'équivalent, comme le recommande la règle ACC-057.]
 
 ## Champs
 

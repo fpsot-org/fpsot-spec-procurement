@@ -71,6 +71,7 @@ Its federal variant MUST add link:https://accessible.canada.ca/creating-accessib
 The module MUST ask for a conformance report with a gap analysis in the bid and at the award.
 It MUST require fixes within an agreed time.
 
+The module MAY offer the buyer a test of the leading bid before the award, under ACC-057.
 The accessibility specification owns each value, so this module cites it and changes none.
 
 == Language
@@ -93,7 +94,9 @@ Where the bidder delivers an {abbr-fpsot} product, LOC-003 and LOC-030 already r
 * coordinated disclosure of each fixed {term-vulnerability}.
 
 It MUST name the version of the security specification that it cites.
-It SHOULD invite each supplier that runs an {abbr-fpsot} component to join the free pre-notice list of SEC-051.
+The supplier MUST have a way to receive advance notice of security fixes for each component it runs.
+Its drafting note SHOULD invite a supplier that runs an {abbr-fpsot} component to join the free pre-notice list of SEC-051.
+The module MUST NOT make that membership a requirement, since PRC-021 bars membership in an {abbr-fpsot} program.
 The buyer then learns of a fix before the public, through the supplier that runs its system.
 
 == Award and cost
@@ -115,6 +118,7 @@ The default weights are:
 
 The link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[procurement guidelines of Interoperable Europe] also recommend a pass or fail baseline and 0 to 5 scales.
 A criterion that every bid meets says nothing about the best bid.
+The module MAY add a criterion for accessibility beyond the baseline, with a weight taken from the others.
 
 Where a regulation sets its own scale, the module MUST map its anchors onto that scale.
 The {abbr-rcti-first}, for example, scores each criterion from 0 to 100 and sets 70 as the acceptable level.
@@ -124,12 +128,16 @@ The {abbr-rcti-first}, for example, scores each criterion from 0 to 100 and sets
 The worksheet MUST give a formula for the costs of licenses, changes, interoperability, training, support and data migration at exit.
 The {abbr-rcti} variant MUST rest on the {abbr-rcti} article on additional costs, for contracts that include goods.
 That article asks the tender documents to name, in advance, elements that one can quantify and measure.
+Only costs outside the bid price count in that adjustment.
+The worksheet MUST therefore ask whether the bid price includes each element.
+
 The {abbr-lcom-first} variant MUST state that municipal bodies cannot yet adjust prices for such costs.
 In that variant, the worksheet only informs the needs assessment.
 
 The module MUST ask each bidder to list each function that needs a paid edition, and MUST count its cost.
 It MUST NOT give points for any tie to {abbr-fpsot}, such as membership, sponsorship or a listing in its register.
 Lock-in shows up as license, change and migration costs, and the worksheet shows them before the award.
+
 == References
 
 === Informative

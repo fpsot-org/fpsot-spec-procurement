@@ -42,7 +42,7 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 1. **Repository.** The supplier must keep the full source repository of each custom deliverable, with its history of changes, on [forge] under the control of the buyer. The repository must hold everything needed to build each release.
 2. **Upstream.** Each change that the supplier makes to an existing open source project must go to that project, through its usual process for contributions.
 3. **Forks.** When the project does not accept a change, the supplier may keep it in a fork. The supplier must document each fork: its reason, its differences from the project, and a plan to merge it or to retire it. An undocumented fork is a defect that the supplier must fix at its own cost.
-4. **Bill of materials.** With each release, the supplier must deliver an SBOM for each software artifact, as rules SEC-033 and SEC-034 of the FPSOT security specification, version [x.y], set it, or equivalent. The SBOM must come from the dependencies that the build resolved.
+4. **Bill of materials.** With each release, the supplier must deliver an SBOM for each software artifact. The SBOM meets rules SEC-033 and SEC-034 of the FPSOT security specification, version [x.y], or equivalent. The SBOM must come from the dependencies that the build resolved.
 5. **Build.** The supplier must document how to build each release from the repository, with no tool or service that the buyer cannot obtain.
 
 ## Fields

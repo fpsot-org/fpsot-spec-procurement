@@ -11,11 +11,15 @@ Elles fixent aussi le registre public des résultats, auquel l’organisation ac
 [[PRC-040]]
 *PRC-040.* La {abbr-fpsot} DOIT publier une trousse propre à une spécification seulement quand ces deux conditions sont réunies :
 
-* la spécification définit des classes de conformité, qu’une suite ouverte à tous teste selon TST-044 à TST-048;
-* au moins une implémentation que la fondation n’a pas faite réussit la suite;
-  sinon, au moins deux intégrateurs peuvent déployer le bloc ouvert de la spécification.
+* la spécification définit des classes de conformité, qu’une suite ouverte à tous teste selon TST-044 et TST-046;
+  la suite écrit ses résultats selon TST-048, et ne revendique aucun appui selon TST-047;
+* au moins une implémentation que la fondation n’a pas faite réussit la suite.
+  Son entrée au registre ne doit pas être périmée selon PRC-045.
+  Sinon, au moins deux intégrateurs ont déployé en production le bloc ouvert de la spécification.
+  Une référence publique démontre chaque déploiement.
 
-Les intégrateurs de la seconde condition DOIVENT être indépendants de la {abbr-fpsot} et l’un de l’autre.
+Deux parties sont indépendantes quand personne ne les contrôle toutes deux et qu’aucune ne sous-traite pour l’autre.
+Chaque intégrateur DOIT être indépendant de la {abbr-fpsot} et des autres intégrateurs.
 Ces conditions montrent que le marché peut respecter la clause.
 L’organisation acheteuse peut alors défendre son appel d’offres contre une plainte de favoritisme envers un fournisseur.
 
@@ -24,18 +28,20 @@ L’organisation acheteuse peut alors défendre son appel d’offres contre une 
 Un module générique laisse le nom de la spécification et ses classes dans des champs.
 La fondation NE DOIT PAS publier de module qui remplit ces champs pour une telle spécification.
 Elle NE DOIT PAS présenter de telles clauses comme prêtes pour un appel d’offres.
-Une organisation qui veut citer une telle spécification le fait à ses risques, avec son propre conseiller juridique.
+Une organisation qui veut citer une telle spécification le fait à ses risques, avec son propre service juridique.
 
 [[PRC-042]]
 *PRC-042.* Chaque trousse propre à une spécification DOIT comprendre un relevé de l’état de préparation.
 Le relevé DOIT donner les classes de conformité, la version de la suite et la date du relevé.
 Il DOIT énumérer chaque implémentation qui a réussi, avec un lien vers son entrée au registre de PRC-044.
-Sinon, il DOIT énumérer chaque intégrateur de PRC-040.
+Sinon, il DOIT énumérer chaque intégrateur de PRC-040, avec sa référence publique.
+Si la {abbr-fpsot} a fait la seule implémentation qui a réussi, le relevé DOIT le dire clairement.
 L’organisation peut alors montrer, dans son propre dossier, pourquoi elle a jugé le marché capable de concourir.
 
 [[PRC-043]]
 *PRC-043.* Si une spécification cesse de respecter PRC-040, la {abbr-fpsot} DOIT remettre sa trousse à l’état d’ébauche sous 30 jours.
-Elle DOIT publier un avis qui donne la raison et la date.
+Quand une entrée devient périmée selon PRC-045, les 30 jours courent de ce jour.
+La fondation DOIT publier un avis qui donne la raison et la date.
 Cela arrive, par exemple, quand la seule implémentation externe se retire.
 Un appel d’offres déjà publié reste soumis à son propre droit, mais les nouveaux reçoivent un avertissement juste.
 

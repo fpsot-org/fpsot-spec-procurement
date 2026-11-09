@@ -61,7 +61,7 @@ Check the values in force on the date of your tender with the source below.
 
 Source: Secrétariat du Conseil du trésor du Québec, *Accords de libéralisation des marchés publics, seuils d'application*, valid from 2026-01-01.
 FPSOT last checked this table on 2026-11-08.
-The table below repeats the values for contracts of services and of supply, in Canadian dollars.
+The table below is an extract of that table: the values for contracts of services and of supply, in Canadian dollars. The source table also covers construction and government enterprises.
 
 | Kind of body (Québec) | Contract | CFTA | Québec–Ontario | CETA | WTO GPA |
 |---|---|---|---|---|---|
@@ -90,6 +90,9 @@ These sources inspired their structure, and are cited only:
 ## Credit line
 
 A buyer that uses a module places this line in its tender, and describes its changes:
+
+FPSOT accepts as reasonable a credit placed in the procurement file of the buyer, or in an annex of the tender.
+Under section 3(a)(3) of the license, FPSOT asks that no credit appear in the signed contract itself.
 
 > Adapted from the FPSOT generic clause pack 0.1.0, © 2026 The FPSOT Authors, under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: [describe the changes, or "none"].
 

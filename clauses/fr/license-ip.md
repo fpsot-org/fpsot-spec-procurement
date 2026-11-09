@@ -28,11 +28,11 @@ C'est une condition du contrat, et non une spécification technique, et beaucoup
 - Pour la variante fédérale, choisissez l'option A ou l'option B.
 
 **Québec.** Les variantes québécoises gardent la licence par défaut de la directive du Conseil du trésor sur la gestion contractuelle, telle que la cite le cadre de référence des logiciels libres, et y ajoutent la licence libre.
-Demandez à votre conseiller juridique si une licence dont le seul texte officiel est en anglais respecte la règle des contrats rédigés en français.
+Demandez à votre service juridique si une licence dont le seul texte officiel est en anglais respecte la règle des contrats rédigés en français.
 
 **Fédéral.** Par défaut, l'entrepreneur détient la propriété intellectuelle originale d'un contrat fédéral.
 L'obligation d'accorder une licence ou de publier doit figurer dans la demande de soumissions, avant que le fournisseur accepte le contrat.
-Demandez à votre conseiller juridique si l'option A exige une exemption selon la politique fédérale sur le titre de propriété intellectuelle.
+Demandez à votre service juridique si l'option A exige une exemption selon la politique fédérale sur le titre de propriété intellectuelle.
 
 **Sources.** La Colombie-Britannique publie sous licence libre le code qu'elle achète. Ses conditions de *Code With Us* sont sous la licence CC BY-SA 4.0 : ce module n'en adapte aucun texte.
 
@@ -45,7 +45,7 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 
 ### Variante pour les organismes publics du Québec (LCOP et RCTI)
 
-1. **Licence par défaut.** Lorsque le prestataire de services conserve les droits d'auteur sur un logiciel qu'il développe dans le cadre du contrat, il accorde à l'organisme une licence non exclusive, irrévocable, sans limites de temps et de territoire et libre de redevances. La licence permet à un autre organisme public d'employer le logiciel aux mêmes conditions.
+1. **Licence par défaut.** Le prestataire de services peut conserver les droits d'auteur sur un logiciel qu'il développe dans le cadre du contrat. Il accorde alors à l'organisme une licence non exclusive, irrévocable, sans limites de temps et de territoire et sans redevance. La licence permet à un autre organisme public d'employer le logiciel aux mêmes conditions.
 2. **Licence libre.** De plus, le prestataire de services doit livrer le code source de chaque livrable sur mesure sous une licence qu'approuve l'OSI, comme suit :
    a. une contribution à un projet libre existant suit la licence de ce projet;
    b. un nouveau livrable autonome suit l'une des licences suivantes, au choix de l'organisme : [liste des licences].
@@ -53,7 +53,7 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 
 ### Variante pour les organismes municipaux du Québec (LCOM)
 
-1. **Licence à l'organisme municipal.** Lorsque le prestataire de services conserve les droits d'auteur sur un logiciel qu'il développe dans le cadre du contrat, il accorde à l'organisme municipal une licence non exclusive, irrévocable, sans limites de temps et de territoire et libre de redevances. La licence permet à un autre organisme public d'employer le logiciel aux mêmes conditions.
+1. **Licence à l'organisme municipal.** Le prestataire de services peut conserver les droits d'auteur sur un logiciel qu'il développe dans le cadre du contrat. Il accorde alors à l'organisme municipal une licence non exclusive, irrévocable, sans limites de temps et de territoire et sans redevance. La licence permet à un autre organisme public d'employer le logiciel aux mêmes conditions.
 2. **Licence libre.** De plus, le prestataire de services doit livrer le code source de chaque livrable sur mesure sous une licence qu'approuve l'OSI, comme suit :
    a. une contribution à un projet libre existant suit la licence de ce projet;
    b. un nouveau livrable autonome suit l'une des licences suivantes, au choix de l'organisme municipal : [liste des licences].
@@ -64,7 +64,7 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 Option A, l'entrepreneur détient la propriété intellectuelle :
 
 1. Les conditions générales supplémentaires 4006 [date de la version], « L'entrepreneur détient les droits de propriété intellectuelle sur les renseignements originaux », s'appliquent.
-2. L'entrepreneur doit accorder sur chaque livrable de code source l'une des licences suivantes qu'approuve l'OSI : [liste des licences]. Une contribution à un projet libre existant suit la licence de ce projet.
+2. L'entrepreneur doit concéder chaque livrable de code source sous l'une des licences suivantes qu'approuve l'OSI : [liste des licences]. Une contribution à un projet libre existant suit la licence de ce projet.
 3. L'entrepreneur doit publier le code source dans un dépôt public que nomme le Canada, au plus tard [moment de la publication].
 
 Option B, le Canada détient la propriété intellectuelle :

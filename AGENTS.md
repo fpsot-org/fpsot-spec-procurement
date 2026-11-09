@@ -8,6 +8,7 @@ This repository holds the FPSOT procurement specification: the rules for FPSOT c
 - A clause must never name FPSOT software, a product, a brand or an implementation, and must keep "or equivalent" (en) or « ou l'équivalent » (fr) each time it names a specification, suite or standard.
 - Each module starts with the draft banner and carries the CC BY 4.0 line. Run `bash scripts/check-clauses.sh` and `bash scripts/test-check-clauses.sh` after each change to `clauses/`.
 - Change the English and French versions of a module in the same commit, with the same sections, variants and fields.
+- Clause text should follow the plain-language rules of the writing specification, but legal terms take priority. Split a clause sentence of more than 25 words where its meaning survives.
 - Do not state a legal point or an article number as fact. Mark unconfirmed article numbers "to be verified" / « à vérifier ». Points for a lawyer go in a drafting note or in `counsel.adoc`.
 - Do not adapt text from a noncommercial or ShareAlike source, such as the World Bank 2026 guidance or the BC Code With Us terms. Cite them as inspiration only.
 - Every page exists in English and in French, with the same file name and the same IDs.

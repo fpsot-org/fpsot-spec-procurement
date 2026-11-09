@@ -25,8 +25,8 @@ Un appel d'offres doit citer cette spécification, avec sa version et ses classe
 Il ne doit pas citer cette trousse, un module ou un guide de la FPSOT comme technologie exigée.
 
 Cette trousse ne constitue pas un avis juridique.
-Chaque organisme doit faire examiner chaque clause par son propre conseiller juridique avant de l'employer.
-La page « Questions pour le conseiller juridique » de la Spécification FPSOT sur l'approvisionnement énumère les points de droit en suspens.
+Chaque organisme doit faire examiner chaque clause par son service juridique avant de l'employer.
+La page « Questions pour un avis juridique » de la Spécification FPSOT sur l'approvisionnement énumère les points de droit en suspens.
 
 ## Langue
 
@@ -51,7 +51,7 @@ Elle n'offre aucune aide privée à un organisme sur un appel d'offres précis, 
 | `data-exit.md` | M05 Données et sortie | 0.1.0 |
 | `accessibility.md` | M06 Accessibilité | 0.1.0 |
 | `language.md` | M07 Langue | 0.1.0 |
-| `award-cost.md` | M08 Adjudication et coût, avec la grille des éléments de coût | 0.1.0 |
+| `award-cost.md` | M08 Adjudication et coût, avec le tableau des éléments de coût | 0.1.0 |
 | `security.md` | M09 Sécurité | 0.1.0 |
 
 ## Seuils des accords commerciaux
@@ -61,7 +61,7 @@ Vérifiez les valeurs en vigueur à la date de votre appel d'offres auprès de l
 
 Source : Secrétariat du Conseil du trésor du Québec, *Accords de libéralisation des marchés publics, seuils d'application*, en vigueur depuis le 1er janvier 2026.
 La FPSOT a vérifié ce tableau pour la dernière fois le 2026-11-08.
-Le tableau ci-dessous reprend les valeurs des contrats de services et d'approvisionnement, en dollars canadiens.
+Le tableau ci-dessous est un extrait de ce tableau : les valeurs des contrats de services et d'approvisionnement, en dollars canadiens. Le tableau source couvre aussi les travaux de construction et les entreprises du gouvernement.
 
 | Type d'organisme (Québec) | Contrat | ALEC | Québec-Ontario | AECG | AMP de l'OMC |
 |---|---|---|---|---|---|
@@ -90,6 +90,9 @@ Ces sources ont inspiré leur structure, et sont seulement citées :
 ## Mention de la source
 
 L'organisme qui emploie un module place cette ligne dans son appel d'offres, et décrit ses changements :
+
+La FPSOT juge raisonnable une mention de la source placée au dossier d'approvisionnement de l'acheteur, ou dans une annexe de l'appel d'offres.
+Selon l'article 3(a)(3) de la licence, la FPSOT demande qu'aucune mention ne figure dans le contrat signé lui-même.
 
 > Adapté de la trousse de clauses générique 0.1.0 de la FPSOT, © 2026 Les auteurs de la FPSOT, sous la licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.fr). Changements : [décrire les changements, ou « aucun »].
 

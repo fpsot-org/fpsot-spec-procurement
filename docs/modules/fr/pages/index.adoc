@@ -6,14 +6,15 @@ Ce guide mène une organisation acheteuse publique du choix d’une spécificati
 Il emploie les ébauches de modules de clauses de la {abbr-fpsot-first}.
 Chaque étape cite la règle sur laquelle elle repose.
 Les modules sont des ébauches et ne constituent pas un avis juridique.
-Votre propre conseiller juridique doit donc examiner votre appel d’offres.
+Votre service juridique doit donc examiner votre appel d’offres.
 
 == Avant de commencer
 
 Vérifiez si la {abbr-fpsot} a publié une {term-clause-pack} pour la spécification dont vous avez besoin, selon PRC-040.
-Une trousse propre à une spécification n’existe que si un fournisseur autre que la {abbr-fpsot} peut la respecter.
+Une trousse propre à une spécification n’existe que si une implémentation que la {abbr-fpsot} n’a pas faite réussit la suite.
+Deux intégrateurs indépendants qui ont déployé le bloc ouvert en production peuvent aussi remplir cette condition.
 Sans elle, seuls les modules génériques existent, et votre risque juridique augmente.
-Lisez la page « Questions pour le conseiller juridique » de cette spécification, et remettez-la à votre juriste.
+Lisez la page « Questions pour un avis juridique » de cette spécification, et remettez-la à votre juriste.
 
 Trouvez votre régime juridique, selon PRC-015 :
 
@@ -27,7 +28,8 @@ Au Québec, employez le texte français de chaque module et de la spécification
 
 Choisissez la version exacte de la spécification, selon PRC-020.
 Choisissez chaque {term-conformance-class} qu’exige votre besoin.
-Décidez si vous acceptez une version mineure plus récente de la même version majeure.
+À partir de la version 1.0.0, décidez si vous acceptez une version mineure plus récente de la même version majeure.
+Avant la version 1.0.0, n’acceptez que des versions correctives plus récentes.
 Notez le besoin fonctionnel derrière votre choix, comme l’interopérabilité ou une sortie sans heurt, selon PRC-023.
 
 == Insérer les modules
@@ -54,17 +56,17 @@ Chaque module donne ses propres champs et choix dans sa note de rédaction.
 Employez le module M08.
 Faites de chaque classe de conformité exigée une condition éliminatoire, selon PRC-038.
 Gardez ou changez les pondérations par défaut, et vérifiez qu’elles totalisent 100.
-Remplissez la grille des éléments de coût avant de publier l’appel d’offres, selon PRC-039.
+Remplissez le tableau des éléments de coût avant de publier l’appel d’offres, selon PRC-039.
 
 Selon le {abbr-rcti}, les documents d’appel d’offres doivent nommer ces éléments d’avance.
-Selon la {abbr-lcom}, la grille sert seulement à évaluer le besoin, car les prix ne peuvent pas encore les inclure.
+Selon la {abbr-lcom}, le tableau sert seulement à évaluer le besoin, car les prix ne peuvent pas encore les inclure.
 Comparez le tableau des seuils aux valeurs en vigueur à la date de votre appel d’offres, selon PRC-018.
 
 == Nettoyer et faire examiner
 
 Retirez chaque note de rédaction.
 Gardez la mention de la source de chaque module, selon PRC-006.
-Retirez la mention d’ébauche seulement après l’approbation de votre conseiller juridique.
+Retirez la mention d’ébauche seulement après l’approbation de votre service juridique.
 Posez toute question ouverte par les canaux publics de la {abbr-fpsot}, selon PRC-052, car elle n’offre aucune aide privée.
 
 == Évaluer les soumissions

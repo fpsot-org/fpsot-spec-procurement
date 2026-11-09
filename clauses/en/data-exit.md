@@ -41,13 +41,13 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 ### Text for all regimes
 
 1. **Ownership.** The buyer owns all data that it gives to the solution, and all data that the solution produces for it.
-2. **Export.** At any time, on request, and at no extra charge, the supplier must export all of the data in an open and documented format, with its metadata.
-3. **Format.** Where an FPSOT data model covers the data, the export must follow the model form of rule DMO-004 of the FPSOT data models specification, version [x.y], or equivalent. Here, the models are: [data models].
-4. **Interfaces.** Each application programming interface of the solution must have a published description that meets rule API-020 of the FPSOT RESTful API specification, version [x.y], or equivalent.
+2. **Export.** On request, the supplier must export all of the data, with its metadata, in an open and documented format. It must do so at any time and at no extra charge.
+3. **Format.** Where an FPSOT data model covers the data, the export must follow the model form of rule DMO-004. The rule is in the FPSOT data models specification, version [x.y], or equivalent. Here, the models are: [data models].
+4. **Interfaces.** Each application programming interface of the solution must have a published description. The description must meet rule API-020 of the FPSOT RESTful API specification, version [x.y], or equivalent.
 5. **Documentation.** The supplier must document each customization and each setting of the solution, so that another supplier can run it.
 6. **Exit plan.** The supplier must give an exit plan before final acceptance, and keep it current. [Option: Before final acceptance, the supplier must test the exit plan with the buyer, by a full export and a reload into a test environment.]
 7. **Transition.** At the end of the contract, the supplier must help the next supplier or the buyer for [transition period], at [payment terms].
-8. **Deletion.** After the transition, and after the buyer confirms in writing that it holds a full copy, the supplier must delete the data and confirm the deletion in writing.
+8. **Deletion.** After the transition, the buyer confirms in writing that it holds a full copy of the data. The supplier must then delete the data and confirm the deletion in writing.
 
 ## Fields
 

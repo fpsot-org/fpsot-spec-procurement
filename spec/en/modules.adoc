@@ -63,7 +63,7 @@ A buyer that pasted version 1.2.0 can then see at once whether version 1.3.0 cha
 The heading of each variant MUST name its regime.
 A module with one text for all regimes MUST say so in its drafting note.
 Two regimes in Québec set different rules on the same points.
-For example, the {abbr-rcti} lets a provincial body add costs to the bid prices.
+For example, the {abbr-rcti} lets a provincial body add costs to the bid prices, for a contract that includes goods.
 A municipal body cannot yet do so, says the link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[guide on the act] of the ministry.
 
 [[PRC-016]]

@@ -42,12 +42,12 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 
 1. **Propriété.** L'acheteur est propriétaire de toutes les données qu'il fournit à la solution, et de toutes les données que la solution produit pour lui.
 2. **Exportation.** En tout temps, sur demande et sans frais supplémentaires, le fournisseur doit exporter toutes les données dans un format ouvert et documenté, avec leurs métadonnées.
-3. **Format.** Quand un modèle de données de la FPSOT couvre les données, l'exportation doit suivre la forme du modèle de la règle DMO-004 de la spécification de la FPSOT sur les modèles de données, version [x.y], ou l'équivalent. Ici, les modèles sont : [modèles de données].
-4. **Interfaces.** Chaque interface de programmation d'application de la solution doit avoir une description publiée qui respecte la règle API-020 de la spécification de la FPSOT sur les API RESTful, version [x.y], ou l'équivalent.
+3. **Format.** Quand un modèle de données de la FPSOT couvre les données, l'exportation doit suivre la forme du modèle de la règle DMO-004. Cette règle figure dans la spécification de la FPSOT sur les modèles de données, version [x.y], ou l'équivalent. Ici, les modèles sont : [modèles de données].
+4. **Interfaces.** Chaque interface de programmation d'application de la solution doit avoir une description publiée. La description doit respecter la règle API-020 de la spécification de la FPSOT sur les API RESTful, version [x.y], ou l'équivalent.
 5. **Documentation.** Le fournisseur doit documenter chaque adaptation et chaque réglage de la solution, de sorte qu'un autre fournisseur puisse l'exploiter.
-6. **Plan de sortie.** Le fournisseur doit fournir un plan de sortie avant l'acceptation finale, et le tenir à jour. [Option : Avant l'acceptation finale, le fournisseur doit mettre le plan de sortie à l'essai avec l'acheteur, par une exportation complète et un rechargement dans un environnement d'essai.]
+6. **Plan de sortie.** Le fournisseur doit fournir un plan de sortie avant l'acceptation finale, et le tenir à jour. [Option : Avant l'acceptation finale, le fournisseur doit mettre le plan de sortie à l'essai avec l'acheteur. L'essai comprend une exportation complète et un rechargement dans un environnement d'essai.]
 7. **Transition.** À la fin du contrat, le fournisseur doit aider le fournisseur suivant ou l'acheteur pendant [période de transition], selon [modalités de paiement].
-8. **Destruction.** Après la transition, et après que l'acheteur a confirmé par écrit qu'il détient une copie complète, le fournisseur doit détruire les données et confirmer la destruction par écrit.
+8. **Destruction.** Après la transition, l'acheteur confirme par écrit qu'il détient une copie complète des données. Le fournisseur doit alors détruire les données et confirmer la destruction par écrit.
 
 ## Champs
 

@@ -27,7 +27,7 @@ Le ministère de la Langue française publie des clauses types à cette fin dans
 Insérez les clauses types qui conviennent à votre contrat, dans leur version en vigueur, là où ce module l'indique.
 Ce module ne les copie pas, car le ministère les met à jour.
 
-**Fédéral.** Les organismes fédéraux ont des obligations selon la Loi sur les langues officielles. Demandez à votre conseiller juridique lesquelles s'appliquent au contrat.
+**Fédéral.** Les organismes fédéraux ont des obligations selon la Loi sur les langues officielles. Demandez à votre service juridique lesquelles s'appliquent au contrat.
 
 **Référence obligatoire.** Seule la spécification normative de la FPSOT que cite votre appel d'offres est la référence obligatoire.
 Citez cette spécification comme exigence, jamais ce module ni un guide de la FPSOT.
@@ -41,20 +41,20 @@ Citez cette spécification comme exigence, jamais ce module ni un guide de la FP
 1. [Insérer ici les clauses linguistiques types du ministère de la Langue française qui s'appliquent à ce contrat.]
 2. L'interface utilisateur, les messages, l'aide en ligne et la documentation de la solution doivent être en français. Ils peuvent aussi être en d'autres langues, à condition que la version française soit au moins aussi complète et aussi facile d'accès.
 3. Le prestataire de services doit offrir la formation et le soutien en français.
-4. Quand la solution comprend un produit de la FPSOT, les règles LOC-003 et LOC-030 de la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent, s'appliquent.
+4. Quand la solution comprend un produit de la FPSOT, les règles LOC-003 et LOC-030 s'appliquent. Elles figurent dans la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent.
 
 ### Variante pour les organismes municipaux du Québec (LCOM)
 
 1. [Insérer ici les clauses linguistiques types qui s'appliquent à ce contrat, tirées du guide du ministère de la Langue française.]
 2. L'interface utilisateur, les messages, l'aide en ligne et la documentation de la solution doivent être en français. Ils peuvent aussi être en d'autres langues, à condition que la version française soit au moins aussi complète et aussi facile d'accès.
 3. Le prestataire de services doit offrir la formation et le soutien en français.
-4. Quand la solution comprend un produit de la FPSOT, les règles LOC-003 et LOC-030 de la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent, s'appliquent.
+4. Quand la solution comprend un produit de la FPSOT, les règles LOC-003 et LOC-030 s'appliquent. Elles figurent dans la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent.
 
 ### Variante pour le gouvernement fédéral
 
-1. L'interface utilisateur, les messages, l'aide en ligne et la documentation des travaux doivent être en français et en anglais, de qualité égale et au même moment.
+1. L'interface utilisateur, les messages, l'aide en ligne et la documentation des travaux doivent être en français et en anglais. Les deux versions doivent être de qualité égale et offertes au même moment.
 2. L'entrepreneur doit offrir la formation et le soutien dans les deux langues officielles, au choix de chaque utilisatrice ou utilisateur.
-3. Quand les travaux comprennent un produit de la FPSOT, les règles LOC-003 et LOC-030 de la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent, s'appliquent.
+3. Quand les travaux comprennent un produit de la FPSOT, les règles LOC-003 et LOC-030 s'appliquent. Elles figurent dans la spécification de la FPSOT sur l'internationalisation, version [x.y], ou l'équivalent.
 
 ## Champs
 

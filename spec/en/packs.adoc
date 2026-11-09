@@ -51,6 +51,11 @@ The specification itself MUST stay under the {abbr-csl-first}.
 Each module MUST suggest a short credit line that a buyer can place in its tender.
 A buyer may then adapt and publish a module, and the patent terms of the {abbr-csl} stay on the specification.
 
+Each pack MUST state that a credit in the procurement file, or in an annex of the tender, is reasonable.
+It MUST also ask that no credit appear in the signed contract itself.
+Section `3(a)(3)` of the license lets the licensor make this request.
+A contract then carries only the terms of the parties.
+
 [[PRC-007]]
 *PRC-007.* Each module file MUST carry, near its top, a one-line notice of its copyright and license.
 In English, the line MUST read `© <year> The FPSOT Authors. Licensed under CC BY 4.0.`.
@@ -81,7 +86,7 @@ A buyer must check each clause with its own counsel.
 
 === Informative
 
-* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, updated 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Archived copy]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, updated 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Archived copy of an earlier version]
 * link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[OGC 15-002r5, OGC Compliance Overview, Guide for Software Acquisition], Open Geospatial Consortium, r5, 2015-04-20. link:https://web.archive.org/web/20261028134225/https://docs.ogc.org/wp/15-002r5/15-002r5.html[Archived copy]
 
 == Document history

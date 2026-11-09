@@ -10,7 +10,8 @@ The modules are drafts and are not legal advice, so your own counsel must review
 == Before you start
 
 Check whether {abbr-fpsot} has published a {term-clause-pack} for the specification that you need, under PRC-040.
-A spec-specific pack exists only when a supplier other than {abbr-fpsot} can meet it.
+A spec-specific pack exists only when an implementation that {abbr-fpsot} did not make passes the suite.
+Two independent integrators that have deployed the open building block in production can also meet this condition.
 Without one, only the generic modules exist, and you take on more legal risk.
 Read the page "Questions for counsel" of this specification, and give it to your lawyer.
 
@@ -26,7 +27,8 @@ In Québec, use the French text of each module and of the specification, under P
 
 Pick the exact version of the specification, under PRC-020.
 Pick the {term-conformance-class}es that your need requires.
-Decide whether you accept a later minor version of the same major version.
+From version 1.0.0, decide whether you accept a later minor version of the same major version.
+Below version 1.0.0, accept only later patch releases.
 Write down the functional need behind your choice, such as interoperability or a clean exit, under PRC-023.
 
 == Paste the modules

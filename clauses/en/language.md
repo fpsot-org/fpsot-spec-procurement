@@ -52,7 +52,7 @@ Cite that specification as the requirement, never this module or an FPSOT guide.
 
 ### Variant for the federal government
 
-1. The user interface, the messages, the online help and the documentation of the Work must be in English and in French, of equal quality and at the same time.
+1. The user interface, the messages, the online help and the documentation of the Work must be in English and in French. Both must be of equal quality and available at the same time.
 2. The Contractor must give training and support in both official languages, at the choice of each user.
 3. Where the Work includes a product of FPSOT, rules LOC-003 and LOC-030 of the FPSOT internationalization specification, version [x.y], or equivalent, apply.
 
