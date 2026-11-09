@@ -1,15 +1,83 @@
-= Guide
-:page-type: explanation
+= Cite an FPSOT spec in a tender
+:page-type: how-to
 include::_fpsot-terms.adoc[]
 
-This page explains the specification for the people who adopt it.
-Each guide page has one type.
-It is a tutorial, a how-to guide, a reference or an explanation.
+This guide takes a public buyer from the choice of a specification to the scoring of bids.
+It uses the draft clause modules of the {abbr-fpsot-first}.
+Each step cites the rule it relies on.
+The modules are drafts and are not legal advice, so your own counsel must review your tender.
+
+== Before you start
+
+Check whether {abbr-fpsot} has published a {term-clause-pack} for the specification that you need, under PRC-040.
+A spec-specific pack exists only when a supplier other than {abbr-fpsot} can meet it.
+Without one, only the generic modules exist, and you take on more legal risk.
+Read the page "Questions for counsel" of this specification, and give it to your lawyer.
+
+Find your legal regime, under PRC-015:
+
+* a Québec public body, such as a ministry or a school or health body, uses the {abbr-rcti-first} variant;
+* a Québec municipal body uses the {abbr-lcom-first} variant;
+* a federal department uses the federal variant.
+
+In Québec, use the French text of each module and of the specification, under PRC-005.
+
+== Choose the specification and its classes
+
+Pick the exact version of the specification, under PRC-020.
+Pick the {term-conformance-class}es that your need requires.
+Decide whether you accept a later minor version of the same major version.
+Write down the functional need behind your choice, such as interoperability or a clean exit, under PRC-023.
+
+== Paste the modules
+
+Copy module M01 and module M02 from `clauses/en/` or `clauses/fr/`, or open their Word or OpenDocument files.
+Fill in each field in square brackets, under PRC-013.
+Keep the words "or equivalent" each time the text names the specification or the suite, under PRC-022.
+Never add the name of a product, including software from {abbr-fpsot}, under PRC-021.
+
+A clause of module M01, with its fields still open, could read as follows.
+
+[source,text]
+----
+The solution must conform to the FPSOT [name] specification,
+version [1.0], conformance classes [server] and [client], or equivalent.
+The bidder does not have to use FPSOT software.
+----
+
+Add the other modules that your need calls for: license, repository, data and exit, accessibility, language and security.
+Each module states its own fields and choices in its drafting note.
+
+== Set the award and the costs
+
+Use module M08.
+Make each required conformance class a pass or fail condition, under PRC-038.
+Keep or change the default weights, and make sure they total 100.
+Fill in the cost-element worksheet before you publish the tender, under PRC-039.
+
+Under the {abbr-rcti}, the tender documents must name these elements in advance.
+Under the {abbr-lcom}, use the worksheet only to assess the need, since prices cannot yet carry additional costs.
+Check the table of trade-agreement thresholds against the values in force on the date of your tender, under PRC-018.
+
+== Clean up and review
+
+Remove each drafting note.
+Keep the credit line of each module, under PRC-006.
+Remove the draft banner only after your counsel approves the text.
+Send any open question to the public channels of {abbr-fpsot}, under PRC-052, since it gives no private help.
+
+== Evaluate the bids
+
+Check that each bid holds a {term-conformance-statement} and a suite report, or an equivalent test report, under PRC-024.
+Treat the statement as pass or fail, and the report as the proof.
+Assess each claim of equivalence on the same footing as the other bids, under PRC-022.
+You may compare a bid with the public register of results, but you must not require a listing, under PRC-046.
+After the award, run the same suite in your acceptance tests, under PRC-025.
 
 == Document history
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Change
-|0.1.0 |2026-11-03 |First version.
+|0.1.0 |2026-11-08 |First version.
 |===

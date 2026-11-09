@@ -1,0 +1,80 @@
+= Questions pour le conseiller juridique
+include::_fpsot-terms.adoc[]
+
+Cette page est informative.
+Elle ne fixe aucune règle et ne constitue pas un avis juridique.
+Elle énumère les questions auxquelles un juriste en marchés publics doit répondre avant qu’un module quitte l’état d’ébauche, selon PRC-012.
+Chaque question donne ce que la recherche de la {abbr-fpsot-first} a trouvé, et ce qu’elle n’a pas pu régler.
+
+== Plaintes contre des clauses ouvertes
+
+L’{abbr-amp-first} a annulé des appels d’offres québécois qui nommaient une marque, ou qu’un seul fournisseur pouvait respecter.
+Un link:https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[bulletin d’un cabinet d’avocats de 2023] résume ces décisions.
+La recherche n’a trouvé aucune décision sur une clause qui exige une norme ouverte ou une licence libre.
+Elle n’en a trouvé aucune sur la conformité exigée à une spécification extérieure aux organismes de normalisation officiels.
+
+* Une entreprise peut-elle se plaindre à l’{abbr-amp} que le module M01 ou M03 dirige un appel d’offres? Pour quels motifs?
+* La règle de préparation de PRC-040 offre-t-elle une défense : une implémentation externe, ou deux intégrateurs indépendants?
+* Une condition de licence, comme une licence libre approuvée, est-elle une spécification technique ou une condition du contrat?
+* Pour un organisme municipal, l’{abbr-amp} ne peut que faire des recommandations. Cela change-t-il le risque?
+
+== Numéros d’articles après les réformes
+
+Les décrets de 2025 ont modifié le {abbr-rcti-first}.
+La {abbr-lcom-first} a remplacé les règles municipales le 1er avril 2026.
+La recherche n’a pas pu lire la base de données juridique officielle du Québec.
+Elle a lu d’autres copies officielles, et y a trouvé les numéros de ce tableau.
+Un juriste doit vérifier chacun d’eux.
+
+[cols="2,1,3",options="header"]
+|===
+|Sujet |Article |Texte lu
+|Adjudication selon le prix, ou selon la qualité et le prix |{abbr-rcti} 14, à vérifier |Texte consolidé de Publications du Québec, à jour au 2 octobre 2026
+|Coûts additionnels et coût total d’acquisition |{abbr-rcti} 15, à vérifier |Même texte
+|Dialogue compétitif |{abbr-rcti} 19, à vérifier |Même texte
+|Homologation de biens |{abbr-rcti} 51 à 53, à vérifier |Même texte
+|Qualification et demande de prix auprès des entreprises qualifiées |{abbr-rcti} 54 à 56.7, à vérifier |Même texte
+|Spécifications par la performance et la fonctionnalité, ou équivalences |{abbr-lcom} 41, à vérifier |Guide du ministère des Affaires municipales, 2e édition, 2026
+|Contrat de gré à gré quand un seul fournisseur est possible |{abbr-lcop-first} 13, à vérifier |Bulletin d’un cabinet d’avocats de 2023
+|===
+
+* Ces numéros sont-ils exacts dans les textes en vigueur?
+* Le {abbr-rcti} permet-il d’ajouter les coûts de licences de logiciels et de services hébergés, ou seulement ceux de biens?
+* Quand un règlement permettra-t-il à un organisme municipal d’ajuster les prix pour des coûts additionnels?
+
+== Licences en anglais et contrats en français
+
+La Charte de la langue française exige le français pour les contrats de l’Administration et les écrits qui s’y rattachent.
+Le ministère ne permet une autre langue que dans certains cas, selon son link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[guide sur les contrats].
+Beaucoup de licences libres, comme l’Apache License 2.0, n’existent qu’en anglais.
+Les licences LiLiQ existent en français.
+Creative Commons publie la licence CC BY 4.0 dans une link:https://creativecommons.org/licenses/by/4.0/legalcode.fr[version officielle en français].
+
+* Un contrat québécois peut-il exiger une licence dont le seul texte officiel est en anglais?
+* Une traduction officielle, comme la version française de CC BY 4.0, respecte-t-elle la règle?
+* Le contrat doit-il dire que la version française l’emporte? Peut-il le dire pour une licence qu’une autre partie a rédigée?
+
+== Autres questions
+
+* *Personnes qui contribuent et conflits d’intérêts.* Certains organismes excluent d’un appel d’offres toute partie qui a aidé à le préparer. Cette règle vise-t-elle une personne qui a aidé à rédiger un module générique que tous peuvent lire? PRC-051 rend ce travail visible.
+* *Politique fédérale sur la propriété intellectuelle.* Selon les conditions supplémentaires 4006, l’entrepreneur possède la propriété intellectuelle originale. Une obligation de la publier sous licence libre exige-t-elle une exemption selon la politique fédérale?
+* *Équivalence selon les accords commerciaux.* Le module M01 définit un équivalent par la même suite, ou par un rapport indépendant. Cette définition respecte-t-elle les accords qui visent l’appel d’offres, comme l’{abbr-cfta-first}?
+* *Mention de la source selon CC BY 4.0.* Une organisation qui adapte un module doit en mentionner la source. Une mention de la source dans un appel d’offres pose-t-elle un problème?
+* *L’énoncé de politique de 2026.* Un ministère québécois a publié un énoncé sur la souveraineté numérique et l’achat de technologies. Est-il devenu une politique contraignante?
+* *Les logiciels libres dans la loi.* Le cadre québécois cite l’obligation de considérer les logiciels libres, sans numéro d’article. Quel article porte cette obligation aujourd’hui?
+
+== Références
+
+=== Références informatives
+
+* link:https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[Appels d’offres dirigés : où en sommes-nous depuis l’arrivée de l’Autorité des marchés publics?], Miller Thomson, 2023-08-12. link:https://web.archive.org/web/20260615151008/https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[Copie archivée]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, mise à jour du 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Copie archivée]
+* link:https://creativecommons.org/licenses/by/4.0/legalcode.fr[Attribution 4.0 International, version officielle en français], Creative Commons, 4.0. link:https://web.archive.org/web/20261030082607/https://creativecommons.org/licenses/by/4.0/legalcode.fr[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===

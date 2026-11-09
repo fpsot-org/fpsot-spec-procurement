@@ -1,0 +1,117 @@
+= Clause modules
+include::_fpsot-terms.adoc[]
+
+A {term-clause-module} is one block of clause text that a buyer pastes into a tender as a whole.
+These rules set the parts and the versions of each module.
+They also set its variants by legal regime, and the sources that its text may draw on.
+
+== Form of a module
+
+[[PRC-010]]
+*PRC-010.* A {term-clause-pack} MUST hold the nine modules of the table on the xref:index.adoc[first page], M01 to M09.
+Each module MUST apply to any {abbr-fpsot-first} specification, unless its title marks it as specific to one.
+A spec-specific module MUST name the specification, its version and the conformance classes it covers.
+A generic module leaves the specification as a field that the buyer fills in.
+A small, fixed set of modules lets buyers learn the kit once.
+
+[[PRC-011]]
+*PRC-011.* Each module MUST have these parts, in this order:
+
+* the draft banner of PRC-012, when it applies;
+* the copyright and license line of PRC-007;
+* a header with the module ID, title, version, date and status;
+* a drafting note for the buyer, which the buyer removes before it publishes the tender;
+* the clause text, in one or more variants;
+* the list of fields of PRC-013;
+* the credit line of PRC-006.
+
+The drafting note MUST give the purpose of the clause, its functional need and the choices of the buyer.
+It MUST also give the statements of PRC-002 and PRC-009.
+A fixed order lets a buyer find each part, and lets a test check that each part exists.
+
+[[PRC-012]]
+*PRC-012.* Each module MUST start with a draft banner until a lawyer reviews it and the pack records that review.
+In English the banner MUST read `Draft — do not use in a tender before legal review`.
+In French it MUST read `Ébauche — ne pas utiliser dans un appel d'offres avant l'avis d'un conseiller juridique`.
+A spec-specific module MUST also keep the banner while its specification does not meet PRC-040.
+A clause that nobody has checked against the law can harm the buyer that uses it.
+The banner makes this risk plain on the first line.
+
+[[PRC-013]]
+*PRC-013.* Each field that the buyer fills in MUST appear in square brackets, such as `[specification name]`.
+The list of fields MUST explain each one, and MUST give any suggested value.
+The clause text MUST NOT hold a binding value that the list of fields does not name.
+Clear fields stop a buyer from publishing a placeholder, or a default that it did not choose.
+
+[[PRC-014]]
+*PRC-014.* Each module MUST have its own version number under link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], separate from the pack.
+A change to what the bidder must do MUST raise the major number.
+A new option or variant MUST raise the minor number.
+A fix of wording that keeps the meaning raises the patch number.
+The module MUST list its changes in its own history.
+A buyer that pasted version 1.2.0 can then see at once whether version 1.3.0 changes anything it relies on.
+
+== Variants by legal regime
+
+[[PRC-015]]
+*PRC-015.* A module MUST give separate variants where the law differs between these regimes:
+
+* the public bodies of Québec, which buy information technology under the {abbr-lcop-first} and the {abbr-rcti-first};
+* the municipal bodies of Québec, which buy under the {abbr-lcom-first} since 2026-04-01;
+* the federal government.
+
+The heading of each variant MUST name its regime.
+A module with one text for all regimes MUST say so in its drafting note.
+Two regimes in Québec set different rules on the same points.
+For example, the {abbr-rcti} lets a provincial body add costs to the bid prices.
+A municipal body cannot yet do so, says the link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[guide on the act] of the ministry.
+
+[[PRC-016]]
+*PRC-016.* A module MUST NOT state an article number as a fact unless a lawyer has confirmed it.
+Until then, it MUST mark the number `to be verified`, in French `à vérifier`.
+It MUST also name the text it read and its date, such as the date of a consolidated text.
+The research of {abbr-fpsot} could not read the official legal database of Québec.
+The reforms of 2025 and 2026 also changed several texts.
+A wrong number in a tender misleads every bidder that reads it.
+
+[[PRC-017]]
+*PRC-017.* A module MUST fit into the tender documents of the buyer, as an annex or a section.
+It MUST NOT restate or replace the administrative clauses that governments publish for all contracts.
+The foundation MUST NOT publish a full tender document.
+Official model documents already cover the general terms, and their authors are writing new ones.
+A pack that competed with them would leave buyers with two texts that conflict.
+
+[[PRC-018]]
+*PRC-018.* Each pack MUST include a table of the thresholds of the trade agreements.
+The table MUST give them by kind of body and kind of contract.
+The table MUST give its date, its source and the date when {abbr-fpsot} last checked it.
+The drafting note MUST tell the buyer to check the values in force on the date of its tender.
+The thresholds set which suppliers may bid, and governments change them every two years.
+
+== Sources of the clause text
+
+[[PRC-019]]
+*PRC-019.* The text of a module MUST be original, or adapted from a source whose license allows commercial reuse.
+Examples are the public domain, the Open Government `Licence` v3.0 of the United Kingdom and CC BY 4.0.
+Each adapted passage MUST credit its source in the drafting note, as its license asks.
+A module MUST NOT adapt a source under a noncommercial license or a ShareAlike license.
+Such a source MAY appear in the drafting note as inspiration, with its title and link.
+Firms that sell services will reuse the modules, and a ShareAlike term would spread to each tender.
+
+== References
+
+=== Normative
+
+* link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], Tom Preston-Werner, 2.0.0, 2013-06-18. link:https://web.archive.org/web/20261026045444/https://semver.org/spec/v2.0.0.html[Archived copy]
+
+=== Informative
+
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Gestion contractuelle municipale, Guide explicatif Muni-Express, Loi sur les contrats des organismes municipaux], Ministère des Affaires municipales et de l'Habitation, 2nd edition, 2026. link:https://web.archive.org/web/20260516045028/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

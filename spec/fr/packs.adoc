@@ -1,0 +1,95 @@
+= Trousses de clauses
+include::_fpsot-terms.adoc[]
+
+Une {term-clause-pack} réunit les modules de clauses qui servent une version d’une spécification de la {abbr-fpsot-first}.
+Un organisme public copie les modules dans ses propres documents d’appel d’offres.
+Ces règles fixent ce qu’est une trousse et son lien avec sa spécification.
+Elles fixent aussi les langues et la licence de son texte.
+
+[[PRC-001]]
+*PRC-001.* Une trousse de clauses DOIT accompagner une seule version d’une seule spécification de la {abbr-fpsot}.
+Elle DOIT nommer cette spécification et sa version.
+Elle NE DOIT PAS être normative, et NE DOIT PAS ajouter d’exigence absente de la spécification.
+Un module PEUT choisir parmi les classes de conformité et les options qu’offre la spécification.
+La spécification reste la seule source de chaque exigence technique.
+L’organisation acheteuse lit ainsi chaque règle à un seul endroit, et la trousse ne peut pas s’écarter de sa spécification.
+
+[[PRC-002]]
+*PRC-002.* Chaque trousse et chaque module DOIVENT indiquer que seule la spécification normative de la {abbr-fpsot} est la référence obligatoire.
+Ils DOIVENT aussi demander à l’organisation acheteuse de citer la spécification dans l’appel d’offres.
+Un appel d’offres ne doit pas citer la trousse ni un guide comme technologie exigée.
+Le link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[guide de l’OGC sur l’acquisition de logiciels] porte un avertissement semblable.
+Un appel d’offres qui exigerait un guide lierait les entreprises soumissionnaires à un texte que personne ne teste.
+
+[[PRC-003]]
+*PRC-003.* Les numéros majeur et mineur d’une trousse DOIVENT être ceux de la version de la spécification qu’elle sert.
+La fondation DOIT publier une nouvelle trousse à chaque version qui change une classe de conformité ou une règle citée.
+Une trousse PEUT avoir ses propres versions correctives, pour corriger une formulation sans changer le sens d’une clause.
+Cette règle suit TST-046, qui lie de la même façon chaque suite de conformité à une version de spécification.
+L’organisation acheteuse fait ainsi correspondre d’un coup d’œil une trousse, une spécification et une suite.
+
+[[PRC-004]]
+*PRC-004.* Chaque module DOIT exister en français et en anglais, dans des fichiers de même nom sous `clauses/fr/` et `clauses/en/`.
+Les deux versions DOIVENT avoir les mêmes sections, variantes, champs et obligations.
+Un écart de sens entre elles est un défaut, que la fondation DOIT corriger dans une version corrective.
+La règle de rédaction WRT-033 s’applique : une traduction automatique ne peut être qu’une première ébauche.
+La plupart des organisations acheteuses du Québec travaillent en français, et beaucoup d’autres travaillent en anglais.
+
+[[PRC-005]]
+*PRC-005.* Chaque trousse DOIT indiquer que son texte français est la version de référence pour un usage au Québec.
+Elle DOIT aussi indiquer que le texte français de la spécification est la référence pour un tel usage.
+Pour tout autre usage, les deux langues DOIVENT avoir la même valeur.
+La Charte de la langue française exige le français pour les contrats de l’Administration et les écrits qui s’y rattachent.
+Le link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[guide sur les contrats] du ministère de la Langue française explique cette règle.
+Un appel d’offres au Québec doit donc reposer sur un texte français.
+
+[[PRC-006]]
+*PRC-006.* Le texte de chaque module DOIT être publié sous la licence link:https://creativecommons.org/licenses/by/4.0/legalcode[Creative Commons Attribution 4.0 International].
+Les modules DOIVENT se trouver dans le dossier `clauses/`.
+Le fichier `clauses/LICENSE` DOIT contenir le texte juridique complet de Creative Commons.
+La spécification elle-même DOIT rester sous la {abbr-csl-first}.
+Chaque module DOIT proposer une courte mention de la source que l’organisation acheteuse peut placer dans son appel d’offres.
+L’organisation peut alors adapter et publier un module, et les clauses de brevets de la {abbr-csl} restent sur la spécification.
+
+[[PRC-007]]
+*PRC-007.* Chaque module DOIT porter, près de son début, un avis d’une ligne sur ses droits et sa licence.
+En français, cette ligne DOIT être `© <année> Les auteurs de la FPSOT. Publié sous la licence CC BY 4.0.`.
+En anglais, elle DOIT être `© <year> The FPSOT Authors. Licensed under CC BY 4.0.`.
+Cette règle applique DOC-047 à un fichier que l’organisation acheteuse peut recevoir seul.
+Un module transmis par courriel indique encore à son lectorat comment le réutiliser.
+
+[[PRC-008]]
+*PRC-008.* Un projet DOIT garder chaque module dans un fichier en texte brut, sous gestion des versions.
+Il DOIT produire les formats modifiables du module à partir de ce fichier.
+
+L’intégration continue DOIT produire chaque module en fichier texte OpenDocument et en fichier Word.
+Elle DOIT employer une version fixe de l’outil de conversion, et DOIT vérifier l’outil avec sa somme de contrôle publiée.
+Les modules sont les gabarits d’appel d’offres de DOC-042, les seuls produits publiés en formats modifiables.
+Un texte brut montre chaque changement dans une demande de fusion.
+Chaque personne reçoit quand même un fichier qu’ouvrent les logiciels de bureau.
+
+[[PRC-009]]
+*PRC-009.* Chaque trousse et chaque module DOIVENT indiquer qu’ils ne constituent pas un avis juridique.
+Un module NE DOIT PAS énoncer un point de droit comme un fait, sauf si sa note cite la source.
+Un point qui exige un juriste DOIT figurer dans la note, ou à la page xref:counsel.adoc[Questions pour le conseiller juridique].
+Le droit des marchés publics varie selon le régime et change souvent.
+L’organisation acheteuse doit vérifier chaque clause avec son propre conseiller juridique.
+
+== Références
+
+=== Références normatives
+
+* link:https://creativecommons.org/licenses/by/4.0/legalcode[Creative Commons Attribution 4.0 International Public License], Creative Commons, 4.0, 2013-11-25. link:https://web.archive.org/web/20261103183907/https://creativecommons.org/licenses/by/4.0/legalcode[Copie archivée]
+
+=== Références informatives
+
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, mise à jour du 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Copie archivée]
+* link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[OGC 15-002r5, OGC Compliance Overview, Guide for Software Acquisition], Open Geospatial Consortium, r5, 2015-04-20. link:https://web.archive.org/web/20261028134225/https://docs.ogc.org/wp/15-002r5/15-002r5.html[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===

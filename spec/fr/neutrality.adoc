@@ -1,0 +1,45 @@
+= Neutralité
+include::_fpsot-terms.adoc[]
+
+Un organisme qui rédige des spécifications et des clauses se trouve près de chaque appel d’offres qui les cite.
+La {abbr-fpsot-first} ne prend aucun contrat, et ne gagne donc rien à aucun appel d’offres.
+Ces trois règles rendent cette position publique et la maintiennent.
+
+[[PRC-050]]
+*PRC-050.* La {abbr-fpsot} NE DOIT PAS soumissionner à un appel d’offres, seule ou avec d’autres.
+Elle NE DOIT PAS agir comme sous-traitante dans le cadre d’un appel d’offres, ni en tirer de travail rémunéré.
+Elle DOIT énoncer cette règle en public, sur son site Web et dans chaque {term-clause-pack}.
+Des organismes québécois traitent comme un conflit d’intérêts possible le fournisseur qui aide à préparer un appel d’offres.
+La link:https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[politique de gestion contractuelle du Curateur public] en est un exemple.
+Un organisme qui ne soumissionne jamais ne peut pas rédiger une clause pour en gagner une.
+
+[[PRC-051]]
+*PRC-051.* Toute personne qui contribue aux trousses ou aux spécifications DOIT déclarer ses intérêts commerciaux dans un registre public.
+La déclaration DOIT nommer chaque employeur ou client qui vend aux organismes publics ce que vise la contribution.
+La personne DOIT la mettre à jour dans les 30 jours d’un changement.
+L’{abbr-cfta-first} traite ce risque à l’article 509 de son link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[chapitre sur les marchés publics].
+Il interdit à une entité l’avis d’une personne qui a un intérêt commercial, si cet avis limite la concurrence.
+Une déclaration publique permet à l’organisation acheteuse de vérifier d’où vient le texte.
+
+[[PRC-052]]
+*PRC-052.* La {abbr-fpsot} DOIT offrir son aide à la rédaction d’un appel d’offres seulement par des canaux publics.
+Ces canaux sont une foire aux questions publiée et des heures de consultation ouvertes à toute personne.
+La fondation DOIT ajouter chaque réponse donnée pendant les heures de consultation à la foire aux questions.
+Elle NE DOIT PAS nommer l’organisation acheteuse, sauf si celle-ci y consent.
+La fondation NE DOIT PAS offrir d’aide privée à une organisation sur un appel d’offres précis.
+Une aide que chaque entreprise peut voir ne donne d’avantage à aucune.
+
+== Références
+
+=== Références informatives
+
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[Politique en matière de gestion contractuelle impliquant une dépense de fonds publics (ORG-120)], Curateur public du Québec, en vigueur le 2024-04-29. link:https://web.archive.org/web/20251031043540/https://cdn-contenu.quebec.ca/cdn-contenu/curateur-public/pdf/polit_direct_proc/organisat/ORG-120.pdf[Copie archivée]
+* link:https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[Canadian Free Trade Agreement, Chapter Five, Government Procurement], Secrétariat du commerce intérieur, 2017. link:https://web.archive.org/web/20260610120207/https://www.cfta-alec.ca/cfta-agreement/chapter-five-government-procurement[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===
