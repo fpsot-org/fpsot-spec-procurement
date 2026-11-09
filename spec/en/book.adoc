@@ -1,4 +1,4 @@
-= Specification title
+= FPSOT procurement specification
 :doctype: book
 :toc:
 
