@@ -26,7 +26,6 @@ jobs:
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       doc-rules: true
-      extra-artifact: clauses
   # Checks the clause modules and builds their editable formats (PRC-004 to PRC-012, DOC-042).
   # The files are an artifact of the run, and the release job attaches them to the release.
   clauses:
