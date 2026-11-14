@@ -26,9 +26,9 @@ jobs:
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       doc-rules: true
+      extra-artifact: clauses
   # Checks the clause modules and builds their editable formats (PRC-004 to PRC-012, DOC-042).
-  # The files are an artifact of the run. Attaching them to a release needs a change to the
-  # shared spec-release workflow.
+  # The files are an artifact of the run, and the release job attaches them to the release.
   clauses:
     runs-on: ubuntu-latest
     env:
@@ -72,7 +72,7 @@ jobs:
       pull-requests: read
   release:
     if: github.ref_type == 'tag'
-    needs: prefix
+    needs: [prefix, clauses]
     uses: fpsot-org/GitHub-Actions/.github/workflows/spec-release.yml@v0
     permissions:
       contents: write
@@ -80,3 +80,4 @@ jobs:
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       doc-rules: true
+      extra-artifact: clauses
