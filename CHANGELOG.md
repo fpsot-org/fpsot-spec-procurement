@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-14
+
+### Fixed
+
+- The release attaches the OpenDocument and Word clause files. Each file name now carries its language tag, such as `accessibility-en.odt`, because a release refuses two files with the same name.
+
 ## [0.1.0] - 2026-11-08
 
 ### Added
@@ -23,5 +29,6 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 - How-to guide that cites an FPSOT specification in a tender.
 - `TERMS-NEEDED.md`, the terms to add to the term base.
 
-[Unreleased]: https://github.com/fpsot-org/fpsot-spec-procurement/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/fpsot-org/fpsot-spec-procurement/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/fpsot-org/fpsot-spec-procurement/releases/tag/v0.1.1
 [0.1.0]: https://github.com/fpsot-org/fpsot-spec-procurement/releases/tag/v0.1.0
