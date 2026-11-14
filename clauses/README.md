@@ -26,6 +26,7 @@ A sentence of more than 25 words is split where its meaning survives the split.
 
 The modules are Markdown files. Markdown keeps each module plain text, so every change shows in a pull request.
 Pandoc reads Markdown directly, and the continuous integration turns each module into an OpenDocument (`.odt`) and a Word (`.docx`) file for buyers.
+Each built file carries its language tag, such as `accessibility-en.odt` and `accessibility-fr.odt`, and each release of the specification attaches them.
 The modules stay outside the AsciiDoc book of the specification, which is under another license.
 
 To check and build them locally:
