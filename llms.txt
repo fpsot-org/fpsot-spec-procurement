@@ -1,0 +1,38 @@
+# FPSOT procurement specification
+
+> Rules for FPSOT clause packs and draft clause modules for public tenders: cite a versioned FPSOT specification and its conformance classes, always "or equivalent", never a product; conformance statement plus machine-readable suite report as evidence; a readiness rule before any spec-specific pack; a public register of conformance results; neutrality (FPSOT bids on no tender); nine bilingual draft modules under CC BY 4.0 with Québec RCTI, Québec LCOM and federal variants. Not legal advice.
+
+## Specification
+
+- [Overview](spec/en/index.adoc): scope, parts, the two licenses, conformance.
+- [Clause packs](spec/en/packs.adoc): PRC-001 to PRC-009.
+- [Clause modules](spec/en/modules.adoc): PRC-010 to PRC-019.
+- [The drafting rule](spec/en/drafting.adoc): PRC-020 to PRC-028.
+- [Content of the modules](spec/en/content.adoc): PRC-030 to PRC-039.
+- [Readiness and results](spec/en/readiness.adoc): PRC-040 to PRC-046.
+- [Neutrality](spec/en/neutrality.adoc): PRC-050 to PRC-052.
+- [Routes to market](spec/en/routes.adoc): informative.
+- [Questions for counsel](spec/en/counsel.adoc): informative, not legal advice.
+
+## Clause modules
+
+- [Pack notes and thresholds](clauses/en/pack.md)
+- [M01 Spec conformance](clauses/en/spec-conformance.md)
+- [M02 Conformance evidence](clauses/en/conformance-evidence.md)
+- [M03 License and intellectual property](clauses/en/license-ip.md)
+- [M04 Repository and upstream](clauses/en/repository-upstream.md)
+- [M05 Data and exit](clauses/en/data-exit.md)
+- [M06 Accessibility](clauses/en/accessibility.md)
+- [M07 Language](clauses/en/language.md)
+- [M08 Award and cost](clauses/en/award-cost.md)
+- [M09 Security](clauses/en/security.md)
+
+## Examples
+
+- [How-to guide: cite an FPSOT spec in a tender](docs/modules/en/pages/index.adoc)
+
+## Optional
+
+- [Agent skill](skill/SKILL.md)
+- [Français](spec/fr/index.adoc)
+- [Modules en français](clauses/fr/pack.md)

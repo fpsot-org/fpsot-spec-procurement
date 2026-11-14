@@ -4,29 +4,54 @@ url: "https://github.com/fpsot-org/fpsot-spec-procurement"
 platforms:
   - web
 categories:
-  - it-development
+  - procurement
 developmentStatus: concept
 softwareType: "standalone/other"
 description:
   en:
-    shortDescription: Template for FPSOT specification repositories.
+    shortDescription: Rules and draft clause modules for public tenders that cite FPSOT specifications.
     longDescription: >
-      Starting point for an FPSOT specification repository. It holds the
-      layout, the Community Specification License files, and the CI that
-      checks requirement IDs, links, languages and prose.
+      Rules for the procurement material of FPSOT, and nine draft clause
+      modules that public bodies adapt for their own tenders. Each module
+      requires conformance to a versioned FPSOT specification and its
+      conformance classes, proven by an open test suite or equivalent
+      evidence, and never requires FPSOT software. The modules come in
+      English and French, with variants for Québec public bodies, Québec
+      municipal bodies and the federal government, and as OpenDocument and
+      Word files. The specification also sets when a specification is ready
+      for tenders, a public register of conformance results, and the
+      neutrality of FPSOT, which takes no contracts. The modules are drafts
+      and are not legal advice.
     features:
-      - Specification repository layout
+      - Spec-not-product drafting rule, always with "or equivalent"
+      - Readiness rule before any spec-specific clause pack
+      - Nine bilingual draft modules under CC BY 4.0
+      - Québec RCTI, Québec LCOM and federal variants
+      - Cost-element worksheet and pass or fail award grid
   fr:
-    shortDescription: Gabarit des dépôts de spécification de FPSOT.
+    shortDescription: Règles et ébauches de modules de clauses pour les appels d’offres publics qui citent des spécifications de la FPSOT.
     longDescription: >
-      Point de départ d'un dépôt de spécification de FPSOT. Il contient la
-      structure, les fichiers de la Community Specification License, et
-      l'intégration continue qui vérifie les identifiants, les liens, les
-      langues et la rédaction.
+      Règles sur le matériel d’approvisionnement de la FPSOT, et neuf
+      ébauches de modules de clauses que les organismes publics adaptent à
+      leurs propres appels d’offres. Chaque module exige la conformité à une
+      spécification versionnée de la FPSOT et à ses classes de conformité,
+      démontrée par une suite de tests ouverte ou une preuve équivalente, et
+      n’exige jamais de logiciel de la FPSOT. Les modules existent en
+      français et en anglais, avec des variantes pour les organismes publics
+      du Québec, les organismes municipaux du Québec et le gouvernement
+      fédéral, et en fichiers OpenDocument et Word. La spécification fixe
+      aussi quand une spécification est prête pour les appels d’offres, un
+      registre public des résultats de conformité et la neutralité de la
+      FPSOT, qui ne prend aucun contrat. Les modules sont des ébauches et ne
+      constituent pas un avis juridique.
     features:
-      - Structure d'un dépôt de spécification
+      - Règle de rédaction fondée sur la spécification, toujours avec « ou l’équivalent »
+      - Règle de préparation avant toute trousse propre à une spécification
+      - Neuf ébauches de modules bilingues sous CC BY 4.0
+      - Variantes RCTI et LCOM pour le Québec, et variante fédérale
+      - Grille des éléments de coût et grille d’adjudication éliminatoire
 legal:
-  license: Community-Spec-1.0
+  license: Community-Spec-1.0 AND CC-BY-4.0
 maintenance:
   type: community
 localisation:

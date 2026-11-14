@@ -4,4 +4,20 @@
 
 include::index.adoc[leveloffset=+1]
 
+include::packs.adoc[leveloffset=+1]
+
+include::modules.adoc[leveloffset=+1]
+
+include::drafting.adoc[leveloffset=+1]
+
+include::content.adoc[leveloffset=+1]
+
+include::readiness.adoc[leveloffset=+1]
+
+include::neutrality.adoc[leveloffset=+1]
+
+include::routes.adoc[leveloffset=+1]
+
+include::counsel.adoc[leveloffset=+1]
+
 include::glossary.adoc[leveloffset=+1]

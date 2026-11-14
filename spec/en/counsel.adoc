@@ -1,0 +1,82 @@
+= Questions for counsel
+include::_fpsot-terms.adoc[]
+
+This page is informative.
+It sets no rule, and it is not legal advice.
+It lists the questions that a lawyer in public procurement must answer before any module leaves draft status, under PRC-012.
+Each question gives what the research of the {abbr-fpsot-first} found, and what it could not settle.
+
+== Complaints about open clauses
+
+The {abbr-amp-first} has annulled Québec tenders that named one brand, or that only one supplier could meet.
+A link:https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[law firm bulletin of 2023] sums up these decisions.
+The research found no decision on a clause that requires an open standard or an open source license.
+It found none on a clause that requires conformance to a specification from outside the formal standards bodies.
+
+* Can a supplier complain to the {abbr-amp} that module M01 or M03 directs a tender, and on what grounds?
+* Does the readiness rule of PRC-040 give a defense: one outside implementation, or two independent integrators?
+* Is a license term, such as an approved open source license, a technical specification or a contract term?
+* For a municipal body, the {abbr-amp} can only make recommendations. Does that change the risk?
+
+== Article numbers after the reforms
+
+The decrees of 2025 changed the {abbr-rcti-first}.
+The {abbr-lcom-first} replaced the municipal rules on 2026-04-01.
+The research could not read the official legal database of Québec.
+It read other official copies, and found the numbers in this table.
+A lawyer must verify each one.
+
+[cols="2,1,3",options="header"]
+|===
+|Topic |Article |Text read
+|Award by price, or by quality and price |{abbr-rcti} 14, to be verified |Consolidated text of Publications du Québec, current to 2026-10-02
+|Additional costs and total cost of acquisition |{abbr-rcti} 15, to be verified |Same
+|Competitive dialogue |{abbr-rcti} 19, to be verified |Same
+|Homologation of goods |{abbr-rcti} 51 to 53, to be verified |Same
+|Qualification and price request to qualified suppliers |{abbr-rcti} 54 to 56.8, to be verified |Same
+|Specifications by performance and function, or equivalents |{abbr-lcom} 41, to be verified |Guide of the ministry of municipal affairs, 2nd edition, 2026
+|Global evaluation of criteria, with price as a criterion |{abbr-lcom} 42 and 54 to 56, to be verified |Guide of the ministry of municipal affairs, 2nd edition, 2026, section 9.3.2
+|Deferred knowledge of price |{abbr-lcom} 43 and 66 to 72, to be verified |Same guide, section 9.4.1
+|Contract by mutual agreement when only one supplier is possible |{abbr-lcop-first} 13, to be verified |Law firm bulletin of 2023
+|===
+
+* Are these numbers correct in the texts in force?
+* Does the {abbr-rcti} let a body add the costs of software licenses and hosted services, or only of goods?
+* When will a regulation let a municipal body adjust prices for additional costs?
+
+== English license texts and French-only contracts
+
+The Charter of the French language requires French for the contracts of the Québec administration and their related writings.
+The ministry of the French language allows another language only in listed cases, says its link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[guide on contracts].
+Many open source licenses, such as the Apache License 2.0, exist only in English.
+The LiLiQ licenses exist in French.
+Creative Commons publishes CC BY 4.0 in an link:https://creativecommons.org/licenses/by/4.0/legalcode.fr[official French version].
+
+* Can a Québec contract require a license whose only official text is in English?
+* Does an official translation, such as the French version of CC BY 4.0, meet the rule?
+* Must the contract say that the French version prevails? Can it say so for a license that another party wrote?
+
+== Other questions
+
+* *Contributors and conflicts of interest.* Some public bodies bar from a tender any party that helped prepare its documents. Does that rule reach a person who helped write a generic module that everyone can read? PRC-051 makes such work visible.
+* *The federal policy on intellectual property.* Under supplemental conditions 4006, the contractor owns the foreground intellectual property. Does a duty to license it as open source need an exemption under the federal policy?
+* *Equivalence under trade agreements.* Module M01 defines an equivalent by the same suite, or by an independent report. Does that definition meet the agreements that cover the tender, such as the {abbr-cfta-first}?
+* *Credit under CC BY 4.0.* A buyer that adapts a module must credit the source. Does a credit line in a tender raise any issue?
+* *The policy statement of 2026.* A Québec ministry published a statement on digital sovereignty and the purchase of technology. Has it become a binding policy?
+* *Free software in the law.* The Québec framework quotes the duty to consider free software, with no article number. Which article holds that duty today?
+
+== References
+
+=== Informative
+
+* link:https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[Appels d'offres dirigés : où en sommes-nous depuis l'arrivée de l'Autorité des marchés publics?], Miller Thomson, 2023-08-12. link:https://web.archive.org/web/20260615151008/https://www.millerthomson.com/fr/perspectives-juridiques/bulletin-droit-de-la-construction-et-fr/appels-doffres-diriges-ou-en-sommes-nous-depuis-larrivee-de-lautorite-des-marches-publics/[Archived copy]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, updated 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Archived copy of an earlier version]
+* link:https://creativecommons.org/licenses/by/4.0/legalcode.fr[Attribution 4.0 International, version officielle en français], Creative Commons, 4.0. link:https://web.archive.org/web/20261030082607/https://creativecommons.org/licenses/by/4.0/legalcode.fr[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

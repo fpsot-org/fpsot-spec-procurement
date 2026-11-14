@@ -1,8 +1,69 @@
 = Spécification FPSOT sur l'approvisionnement
 include::_fpsot-terms.adoc[]
 
-Remplacez cette page par le texte normatif de la spécification.
-Commencez par la portée, puis les classes de conformité, puis les exigences.
+Cette spécification fixe comment la {abbr-fpsot-first} rédige et tient à jour des textes pour les appels d’offres publics.
+Ces textes prennent la forme de modules, réunis en une {term-clause-pack}.
+La spécification fixe aussi quand un appel d’offres peut citer une spécification de la {abbr-fpsot}.
+
+Un organisme public qui achète un logiciel devrait exiger ce que fait le produit, et non qui l’a fait.
+Chaque {term-clause-module} exige donc la conformité à une spécification versionnée de la {abbr-fpsot}.
+Une suite de tests ouverte, ou une preuve équivalente, démontre cette conformité.
+Aucun module n’exige jamais un logiciel que fait la {abbr-fpsot}.
+
+Les règles comportent six parties, suivies de deux pages informatives.
+
+* Les xref:packs.adoc[trousses de clauses] : ce qu’est une trousse, ses versions, ses langues et sa licence.
+* Les xref:modules.adoc[modules de clauses] : la forme de chaque module, ses variantes selon le régime juridique et ses sources.
+* La xref:drafting.adoc[règle de rédaction] : comment un module cite une spécification et quelle preuve il demande.
+* Le xref:content.adoc[contenu des modules] : ce que couvre chacun des neuf modules, y compris l’adjudication et le coût.
+* L’xref:readiness.adoc[état de préparation et les résultats] : quand une trousse peut quitter l’état d’ébauche, et le registre des résultats.
+* La xref:neutrality.adoc[neutralité] : pourquoi et comment la {abbr-fpsot} reste en dehors de tout appel d’offres.
+* Les xref:routes.adoc[voies d’accès au marché] : une page informative sur les façons d’acheter qui conviennent aux spécifications ouvertes.
+* Les xref:counsel.adoc[questions pour un avis juridique] : une page informative sur les points qu’un juriste doit d’abord régler.
+
+== Les modules de clauses
+
+Les ébauches de modules se trouvent dans le dossier `clauses/` de ce {term-repository}.
+Le français est dans `clauses/fr/` et l’anglais dans `clauses/en/`.
+Elles ne font pas partie de ce livre.
+Chaque module est une ébauche, et le dit en tête.
+Une organisation acheteuse ne doit pas employer un module dans un appel d’offres avant d’obtenir un avis juridique.
+
+[cols="1,3",options="header"]
+|===
+|Fichier |Module
+|`spec-conformance.md` |M01 Conformité à la spécification
+|`conformance-evidence.md` |M02 Preuve de conformité
+|`license-ip.md` |M03 Licence et propriété intellectuelle
+|`repository-upstream.md` |M04 Dépôt et projet d’origine
+|`data-exit.md` |M05 Données et sortie
+|`accessibility.md` |M06 Accessibilité
+|`language.md` |M07 Langue
+|`award-cost.md` |M08 Adjudication et coût, avec le tableau des éléments de coût
+|`security.md` |M09 Sécurité
+|===
+
+Les modules sont des fichiers Markdown en texte brut.
+L’intégration continue produit chacun en fichier OpenDocument et en fichier Word, selon PRC-008.
+
+== Deux licences
+
+Cette spécification est publiée sous la Community Specification License 1.0, comme toute spécification de la {abbr-fpsot}.
+Les modules de clauses sont publiés sous la licence Creative Commons Attribution 4.0 International.
+Son texte juridique complet se trouve dans `clauses/LICENSE`.
+Une organisation acheteuse peut copier, modifier et publier un module, si elle en mentionne la source selon PRC-006.
+
+== Spécifications liées
+
+Cette spécification s’appuie sur d’autres spécifications de la {abbr-fpsot}.
+La spécification sur les tests fixe les suites de conformité qu’exige un module, aux règles TST-044 à TST-048.
+La spécification sur l’accessibilité fixe les exigences d’un appel d’offres, aux règles ACC-055 à ACC-058.
+La spécification sur la sécurité fixe la nomenclature logicielle, le canal privé de signalement et le fichier `SECURITY.md`.
+Celle sur l’internationalisation fixe les langues d’un produit, et celle sur les modèles de données, la forme des données.
+La spécification sur la documentation fixe les formats modifiables, à DOC-042, et l’avis de droits, à DOC-047.
+
+Les futures spécifications sur le code et sur les capacités définiront des blocs qu’un appel d’offres pourra aussi citer.
+Cette version n’en dépend pas.
 
 == Conformité
 
@@ -11,23 +72,25 @@ ____
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 (link:https://www.rfc-editor.org/info/rfc2119[RFC 2119], link:https://www.rfc-editor.org/info/rfc8174[RFC 8174]) when, and only when, they appear in all capitals, as shown here.
 ____
 
-Les mots clés suivent l'exigence WRT-010 de la spécification de rédaction de la {abbr-fpsot-first}.
-La version française emploie les mots clés français de l'exigence WRT-011.
+Les mots clés suivent l’exigence WRT-010 de la spécification de rédaction de la {abbr-fpsot}.
+La version française emploie les mots clés français de l’exigence WRT-011.
 
-== Exigences
+Il y a deux classes de conformité.
 
-Donnez à chaque exigence une ancre avec son identifiant, juste au-dessus de son paragraphe.
-L'ancre ressemble à `+[[XYZ-001]]+`.
-L'exemple ci-dessous montre la forme. Remplacez-le par la première exigence.
+* Une *trousse de clauses* est conforme quand elle et ses modules respectent chaque règle DOIT des cinq premières parties.
+* La *{abbr-fpsot}* est conforme comme éditrice quand elle respecte chaque règle DOIT sur la préparation, les résultats et la neutralité.
 
-[[TPL-001]]
-*TPL-001.* Un énoncé normatif DOIT employer un des mots clés du {abbr-bcp-first} 14, en majuscules.
-Le mot clé donne sa force à la règle.
+Un appel d’offres que rédige un organisme public n’est pas un produit conforme à cette spécification.
+L’organisme emploie un module comme il l’entend, selon le droit qui s’applique à lui.
+
+== Statut juridique
+
+Cette spécification énonce la pratique de la {abbr-fpsot}, et elle ne constitue pas un avis juridique.
+Les modules sont des ébauches et ne constituent pas non plus un avis juridique.
+Les points qui exigent un juriste figurent dans des notes informatives, jamais dans une règle.
+La page xref:counsel.adoc[Questions pour un avis juridique] les réunit.
 
 == Références
-
-Donnez ici chaque source externe que cite cette page, avec la même adresse que son lien dans le texte.
-Chaque entrée donne le titre, l'éditeur, la version, la date et une copie archivée.
 
 === Références normatives
 
@@ -36,10 +99,8 @@ Chaque entrée donne le titre, l'éditeur, la version, la date et une copie arch
 
 == Historique du document
 
-Ajoutez une ligne pour chaque version qui modifie cette page.
-
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
-|0.1.0 |2026-11-03 |Première version.
+|0.1.0 |2026-11-08 |Première version.
 |===

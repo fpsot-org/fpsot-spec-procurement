@@ -1,0 +1,160 @@
+= Content of the modules
+include::_fpsot-terms.adoc[]
+
+These rules set what modules M03 to M09 must cover.
+Modules M01 and M02 apply the drafting rule, so the rules of that page set their content.
+Each module cites the {abbr-fpsot-first} specification that holds the technical rule, and adds only the contract terms around it.
+
+== License and intellectual property
+
+[[PRC-030]]
+*PRC-030.* Module M03 MUST treat the license of the deliverables as a contract term, not as a technical specification.
+The buyer MUST receive the source code of each custom deliverable, under a license that the {abbr-osi-first} approves.
+The {abbr-osi} keeps the link:https://opensource.org/licenses[list of approved licenses].
+The module MUST offer these options:
+
+* a contribution to an existing open source project goes under the license of that project;
+* a new deliverable that stands alone goes under a license that the buyer picks from a list in a field.
+
+Many suppliers can meet a license term, so it does not restrict competition the way a brand does.
+
+[[PRC-031]]
+*PRC-031.* The Québec variants of module M03 MUST keep the default license of the Treasury Board directive on contract management.
+The link:https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[free software framework] of Québec quotes that default.
+The license is not exclusive, has no end and no limit of place, carries no royalty and cannot lapse.
+Other public bodies may use the software on the same terms.
+
+The variants MUST add the open source license of PRC-030 to that default, not replace it.
+They MUST list a LiLiQ license for a new deliverable, since the framework names LiLiQ as the preferred license.
+LiLiQ licenses exist in French and suit Québec civil law.
+
+[[PRC-032]]
+*PRC-032.* The federal variant of module M03 MUST offer two options.
+By default, the contractor owns the foreground intellectual property of a federal contract.
+In the first option, the contractor keeps it under supplemental conditions 4006 of the standard clauses.
+The contractor then licenses each deliverable under an approved open source license.
+
+In the second option, Canada owns the deliverables under supplemental conditions 4007, and states that it will publish them.
+The federal link:https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[guide for publishing open source code] allows a release only when Canada holds the rights.
+The duty must therefore sit in the solicitation.
+
+== Repository and upstream
+
+[[PRC-033]]
+*PRC-033.* Module M04 MUST require the full source {term-repository}, with its history, on a forge that the buyer controls.
+Each change to an existing open source project MUST go to that project upstream.
+Where it cannot, it MUST go to a documented fork with a plan to merge it.
+A fork that nobody documents MUST count as a defect.
+The module MUST also require a {abbr-sbom-first} for each release, under SEC-033 and SEC-034, or an equivalent.
+A buyer that holds the repository can change supplier, and an upstream change stays maintained after the contract.
+
+== Data and exit
+
+[[PRC-034]]
+*PRC-034.* Module M05 MUST state that the buyer owns its data.
+The supplier MUST export all of it on request, in an open and documented format, at no extra charge.
+Where an {abbr-fpsot} data model covers the data, the format MUST be the model form of DMO-004, or an equivalent.
+Each {abbr-api-first} of the solution MUST have a published description under API-020, or an equivalent.
+The supplier MUST document its customizations and settings.
+It MUST help the next supplier for a period that a field sets.
+
+The module SHOULD require a test of the exit plan before the final acceptance.
+Only a tested export shows that the buyer can leave.
+
+== Accessibility
+
+[[PRC-035]]
+*PRC-035.* Module M06 MUST apply ACC-055 to ACC-058 of the {abbr-fpsot} accessibility specification.
+It MUST require link:https://www.w3.org/TR/WCAG22/[WCAG 2.2] at level AA, the four criteria of ACC-003 and link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1].
+Its Québec variants MUST add the link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[SGQRI 008 3.0] standard.
+Its federal variant MUST add link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[CAN/ASC - EN 301 549:2024].
+The module MUST ask for a conformance report with a gap analysis in the bid and at the award.
+It MUST require fixes within an agreed time.
+
+The module MAY offer the buyer a test of the leading bid before the award, under ACC-057.
+The accessibility specification owns each value, so this module cites it and changes none.
+
+== Language
+
+[[PRC-036]]
+*PRC-036.* Module M07 MUST require the user interface, the documentation, the training and the support in French.
+Its Québec variants MUST point the buyer to the model language clauses of the ministry of the French language.
+They MUST NOT copy those clauses, because the ministry updates them.
+Its federal variant MUST require both official languages.
+Where the bidder delivers an {abbr-fpsot} product, LOC-003 and LOC-030 already require English and French.
+
+== Security
+
+[[PRC-037]]
+*PRC-037.* Module M09 MUST require these practices of the {abbr-fpsot} security specification, or equivalent practices:
+
+* a `SECURITY.md` file in each repository, under SEC-063;
+* a private channel to report a {term-vulnerability}, under SEC-040 and SEC-064;
+* a {abbr-sbom} for each release, under SEC-033;
+* coordinated disclosure of each fixed {term-vulnerability}.
+
+It MUST name the version of the security specification that it cites.
+The supplier MUST have a way to receive advance notice of security fixes for each component it runs.
+Its drafting note SHOULD invite a supplier that runs an {abbr-fpsot} component to join the free pre-notice list of SEC-051.
+The module MUST NOT make that membership a requirement, since PRC-021 bars membership in an {abbr-fpsot} program.
+The buyer then learns of a fix before the public, through the supplier that runs its system.
+
+== Award and cost
+
+[[PRC-038]]
+*PRC-038.* Module M08 MUST make each required {term-conformance-class} and each mandatory term a pass or fail condition.
+It MUST NOT give points for meeting them.
+It MUST score each other criterion from 0 to 5 against written anchors.
+It MUST score only what goes beyond the pass or fail baseline.
+It MUST give default weights that total 100, and the buyer MAY change them.
+The default weights are:
+
+* design and architecture of the solution, 30;
+* method of implementation, 15;
+* handover, which covers the transfer of knowledge, the documentation, the access to source and data migration, 15;
+* team and capacity building, 15;
+* optional conformance classes, 15;
+* upstream contributions and the plan for maintenance, 10.
+
+The link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[procurement guidelines of Interoperable Europe] also recommend a pass or fail baseline and 0 to 5 scales.
+A criterion that every bid meets says nothing about the best bid.
+The module MAY add a criterion for accessibility beyond the baseline, with a weight taken from the others.
+
+Where a regulation sets its own scale, the module MUST map its anchors onto that scale.
+The {abbr-rcti-first}, for example, scores each criterion from 0 to 100 and sets 70 as the acceptable level.
+
+[[PRC-039]]
+*PRC-039.* Module M08 MUST include a cost-element worksheet that the buyer fills in before it publishes the tender.
+The worksheet MUST give a formula for the costs of licenses, changes, interoperability, training, support and data migration at exit.
+The {abbr-rcti} variant MUST rest on the {abbr-rcti} article on additional costs, for contracts that include goods.
+That article asks the tender documents to name, in advance, elements that one can quantify and measure.
+Only costs outside the bid price count in that adjustment.
+The worksheet MUST therefore ask whether the bid price includes each element.
+
+The {abbr-lcom-first} variant MUST state that municipal bodies cannot yet adjust prices for such costs.
+In that variant, the worksheet only informs the needs assessment.
+
+The module MUST ask each bidder to list each function that needs a paid edition, and MUST count its cost.
+It MUST NOT give points for any tie to {abbr-fpsot}, such as membership, sponsorship or a listing in its register.
+Lock-in shows up as license, change and migration costs, and the worksheet shows them before the award.
+
+== References
+
+=== Informative
+
+* link:https://opensource.org/licenses[OSI Approved Licenses], Open Source Initiative, list consulted 2026-11-08. link:https://web.archive.org/web/20261030184015/https://opensource.org/licenses[Archived copy]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[Cadre de référence des logiciels libres], Ministère de la Cybersécurité et du Numérique, 4.1, 2022-12. link:https://web.archive.org/web/20251018193139/https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[Archived copy]
+* link:https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[Guide for Publishing Open Source Code], Government of Canada. link:https://web.archive.org/web/20260515164059/https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[Archived copy]
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, W3C Recommendation, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Archived copy]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC and ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Archived copy]
+* link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)], Ministère de la Cybersécurité et du Numérique, 3.0, in force since 2024-04-29, 2026-06-08. link:https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Archived copy]
+* link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Summary of CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)], Accessibility Standards Canada, 2024, 2024-05. link:https://web.archive.org/web/20260420034312/https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Archived copy]
+* link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[Guidelines on sharing and reuse of interoperability solutions, public procurement], European Commission, Interoperable Europe. link:https://web.archive.org/web/20261012123546/https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

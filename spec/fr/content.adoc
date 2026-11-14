@@ -1,0 +1,165 @@
+= Contenu des modules
+include::_fpsot-terms.adoc[]
+
+Ces règles fixent ce que doivent couvrir les modules M03 à M09.
+Les modules M01 et M02 appliquent la règle de rédaction, dont la page fixe leur contenu.
+Chaque module cite la spécification de la {abbr-fpsot-first} qui porte la règle technique.
+Il n’y ajoute que les conditions du contrat.
+
+== Licence et propriété intellectuelle
+
+[[PRC-030]]
+*PRC-030.* Le module M03 DOIT traiter la licence des livrables comme une condition du contrat, non comme une spécification.
+L’organisation acheteuse DOIT recevoir le code source de chaque livrable sur mesure, sous une licence qu’approuve l’{abbr-osi-first}.
+L’{abbr-osi} tient la link:https://opensource.org/licenses[liste des licences approuvées].
+Le module DOIT offrir ces options :
+
+* une contribution à un projet libre existant suit la licence de ce projet;
+* un nouveau livrable autonome suit une licence que l’organisation choisit dans une liste, dans un champ.
+
+Beaucoup de fournisseurs peuvent respecter une condition de licence, qui ne restreint donc pas la concurrence comme une marque.
+
+[[PRC-031]]
+*PRC-031.* Les variantes québécoises du module M03 DOIVENT garder la licence par défaut de la directive sur la gestion contractuelle.
+Le link:https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[cadre de référence des logiciels libres] du Québec cite cette licence par défaut.
+Elle est non exclusive, irrévocable, sans limites de temps et de territoire et libre de redevances.
+D’autres organismes publics peuvent employer le logiciel aux mêmes conditions.
+
+Les variantes DOIVENT ajouter la licence libre de PRC-030 à cette licence par défaut, sans la remplacer.
+Elles DOIVENT offrir une licence LiLiQ pour un nouveau livrable, puisque le cadre nomme LiLiQ comme licence privilégiée.
+Les licences LiLiQ existent en français et conviennent au droit civil du Québec.
+
+[[PRC-032]]
+*PRC-032.* La variante fédérale du module M03 DOIT offrir deux options.
+Par défaut, l’entrepreneur possède la propriété intellectuelle originale d’un contrat fédéral.
+Dans la première option, l’entrepreneur la garde selon les conditions supplémentaires 4006 des clauses normalisées.
+Il accorde alors une licence libre approuvée sur chaque livrable.
+
+Dans la seconde option, le Canada possède les livrables selon les conditions supplémentaires 4007, et indique qu’il les publiera.
+Le link:https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[guide fédéral sur la publication du code source ouvert] permet la diffusion seulement si le Canada détient les droits.
+L’obligation doit donc figurer dans la demande de soumissions.
+
+== Dépôt et projet d’origine
+
+[[PRC-033]]
+*PRC-033.* Le module M04 DOIT exiger le {term-repository} source complet, avec son historique, sur une forge que contrôle l’organisation acheteuse.
+Chaque changement à un projet libre existant DOIT aller au projet d’origine.
+S’il ne le peut pas, il DOIT aller à une bifurcation documentée, avec un plan de fusion.
+Une bifurcation que personne ne documente DOIT compter comme un défaut.
+
+Le module DOIT aussi exiger une {abbr-sbom-first} à chaque version, selon SEC-033 et SEC-034, ou l’équivalent.
+L’organisation qui détient le dépôt peut changer de fournisseur.
+Un changement versé au projet d’origine reste maintenu après le contrat.
+
+== Données et sortie
+
+[[PRC-034]]
+*PRC-034.* Le module M05 DOIT indiquer que l’organisation acheteuse possède ses données.
+Le fournisseur DOIT les exporter toutes sur demande, dans un format ouvert et documenté, sans frais supplémentaires.
+Si un modèle de données de la {abbr-fpsot} les couvre, le format DOIT suivre DMO-004, ou l’équivalent.
+Chaque {abbr-api-first} de la solution DOIT avoir une description publiée selon API-020, ou l’équivalent.
+Le fournisseur DOIT documenter ses adaptations et ses réglages.
+
+Il DOIT aider le fournisseur suivant pendant une période que fixe un champ.
+
+Le module DEVRAIT exiger un essai du plan de sortie avant l’acceptation finale.
+Seule une exportation testée montre que l’organisation peut partir.
+
+== Accessibilité
+
+[[PRC-035]]
+*PRC-035.* Le module M06 DOIT appliquer les règles ACC-055 à ACC-058 de la spécification de la {abbr-fpsot} sur l’accessibilité.
+Il DOIT exiger les link:https://www.w3.org/TR/WCAG22/[WCAG 2.2] au niveau AA, les critères d’ACC-003 et la norme link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1].
+Ses variantes québécoises DOIVENT ajouter le standard link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[SGQRI 008 3.0].
+Sa variante fédérale DOIT ajouter la norme link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[CAN/ASC - EN 301 549:2024].
+Le module DOIT demander un rapport de conformité avec une analyse des écarts dans la soumission et à l’attribution.
+Il DOIT exiger les corrections dans un délai convenu.
+
+Le module PEUT offrir à l’organisation un essai de la soumission la mieux classée avant l’adjudication, selon ACC-057.
+La spécification sur l’accessibilité fixe chaque valeur, et ce module la cite sans en changer aucune.
+
+== Langue
+
+[[PRC-036]]
+*PRC-036.* Le module M07 DOIT exiger en français l’interface utilisateur, la documentation, la formation et le soutien de la solution.
+Ses variantes québécoises DOIVENT renvoyer aux clauses linguistiques types du ministère de la Langue française.
+Elles NE DOIVENT PAS copier ces clauses, car le ministère les met à jour.
+Sa variante fédérale DOIT exiger les deux langues officielles.
+Quand l’entreprise livre un produit de la {abbr-fpsot}, LOC-003 et LOC-030 exigent déjà le français et l’anglais.
+
+== Sécurité
+
+[[PRC-037]]
+*PRC-037.* Le module M09 DOIT exiger ces pratiques de la spécification sur la sécurité, ou l’équivalent :
+
+* un fichier `SECURITY.md` dans chaque dépôt, selon SEC-063;
+* un canal privé pour signaler une {term-vulnerability}, selon SEC-040 et SEC-064;
+* une {abbr-sbom} à chaque version, selon SEC-033;
+* la divulgation coordonnée de chaque vulnérabilité corrigée.
+
+Il DOIT nommer la version de la spécification sur la sécurité qu’il cite.
+Le fournisseur DOIT avoir un moyen d’obtenir un préavis des correctifs de sécurité de chaque composant qu’il exploite.
+La note de rédaction DEVRAIT inviter ce fournisseur à adhérer au préavis de SEC-051 pour un composant de la {abbr-fpsot}.
+Le module NE DOIT PAS faire de cette adhésion une exigence, car PRC-021 interdit d’exiger un tel programme.
+L’organisation apprend alors une correction avant le public, par le fournisseur qui exploite son système.
+
+== Adjudication et coût
+
+[[PRC-038]]
+*PRC-038.* Le module M08 DOIT faire de chaque {term-conformance-class} exigée et de chaque condition obligatoire une condition éliminatoire.
+Il NE DOIT PAS donner de points pour leur respect.
+Il DOIT noter chaque autre critère de 0 à 5 selon des repères écrits.
+Il DOIT noter seulement ce qui dépasse le seuil éliminatoire.
+Il DOIT donner des pondérations par défaut qui totalisent 100, et l’organisation PEUT les changer.
+Les pondérations par défaut sont :
+
+* conception et architecture de la solution, 30;
+* méthode de mise en œuvre, 15;
+* transfert, qui couvre la transmission des connaissances, la documentation, l’accès au code source et la migration des données, 15;
+* équipe et renforcement des capacités, 15;
+* classes de conformité facultatives, 15;
+* contributions au projet d’origine et plan de maintenance, 10.
+
+Les link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[lignes directrices d’Interoperable Europe sur les marchés publics] recommandent aussi ces seuils et ces échelles.
+Un critère que respecte chaque soumission ne dit rien de la meilleure.
+Le module PEUT ajouter un critère facultatif sur l’accessibilité au-delà du seuil, avec une pondération prise sur les autres.
+
+Quand un règlement fixe sa propre échelle, le module DOIT y faire correspondre ses repères.
+Par exemple, le {abbr-rcti-first} note chaque critère de 0 à 100 et fixe à 70 le niveau de performance acceptable.
+
+[[PRC-039]]
+*PRC-039.* Le module M08 DOIT comprendre un tableau des éléments de coût, que l’organisation remplit avant de publier l’appel d’offres.
+Le tableau DOIT donner une formule pour chaque coût : licence, évolution, interopérabilité, formation, soutien et migration à la sortie.
+La variante {abbr-rcti} DOIT s’appuyer sur l’article du {abbr-rcti} sur les coûts additionnels, pour les contrats qui comprennent des biens.
+Cet article exige que les documents d’appel d’offres nomment d’avance des éléments quantifiables et mesurables.
+Seuls les coûts non inclus dans le prix soumis comptent dans cet ajustement.
+Le tableau DOIT donc demander si le prix soumis inclut chaque élément.
+
+La variante {abbr-lcom-first} DOIT indiquer que les organismes municipaux ne peuvent pas encore ajuster les prix pour ces coûts.
+Dans cette variante, le tableau sert seulement à l’évaluation des besoins.
+
+Le module DOIT demander à chaque entreprise de nommer chaque fonction qui exige une édition payante.
+Il DOIT en compter le coût.
+Il NE DOIT PAS donner de points pour un lien avec la {abbr-fpsot}, comme une adhésion ou un parrainage.
+La dépendance se voit dans les coûts de licence, d’évolution et de migration, et le tableau les montre avant l’adjudication.
+
+== Références
+
+=== Références informatives
+
+* link:https://opensource.org/licenses[OSI Approved Licenses], Open Source Initiative, liste consultée le 2026-11-08. link:https://web.archive.org/web/20261030184015/https://opensource.org/licenses[Copie archivée]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[Cadre de référence des logiciels libres], Ministère de la Cybersécurité et du Numérique, 4.1, 2022-12. link:https://web.archive.org/web/20251018193139/https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf[Copie archivée]
+* link:https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[Guide for Publishing Open Source Code], gouvernement du Canada. link:https://web.archive.org/web/20260515164059/https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/guide-for-publishing-open-source-code.html[Copie archivée]
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, W3C Recommendation, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC et ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Copie archivée]
+* link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)], Ministère de la Cybersécurité et du Numérique, 3.0, en vigueur depuis le 2024-04-29, 2026-06-08. link:https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Copie archivée]
+* link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Summary of CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)], Normes d’accessibilité Canada, 2024, 2024-05. link:https://web.archive.org/web/20260420034312/https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Copie archivée]
+* link:https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[Guidelines on sharing and reuse of interoperability solutions, public procurement], Commission européenne, Interoperable Europe. link:https://web.archive.org/web/20261012123546/https://interoperable-europe.ec.europa.eu/collection/guidelines-sharing-interoperability-solutions/public-procurement[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===

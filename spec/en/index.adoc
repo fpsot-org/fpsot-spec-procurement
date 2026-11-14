@@ -1,8 +1,67 @@
 = FPSOT procurement specification
 include::_fpsot-terms.adoc[]
 
-Replace this page with the normative text of the specification.
-Start with the scope, then the conformance classes, then the requirements.
+This specification sets how the {abbr-fpsot-first} writes and maintains the text that public bodies paste into their tenders.
+That text comes as {term-clause-pack}s of {term-clause-module}s.
+The specification also sets when an {abbr-fpsot} specification is ready for a tender to cite it.
+
+A public body that buys software should require what a product does, not who made it.
+Each module therefore requires conformance to a versioned {abbr-fpsot} specification, proven by an open test suite or by equivalent evidence.
+No module ever requires software that {abbr-fpsot} makes.
+
+The rules come in six parts, and two informative pages follow them.
+
+* xref:packs.adoc[Clause packs] sets what a pack is, its versions, its languages and its license.
+* xref:modules.adoc[Clause modules] sets the form of each module, its variants by legal regime and its sources.
+* xref:drafting.adoc[The drafting rule] sets how a module cites a specification and what evidence it asks for.
+* xref:content.adoc[Content of the modules] sets what each of the nine modules covers, including award and cost.
+* xref:readiness.adoc[Readiness and results] sets when a pack for one specification may leave draft status, and the public register of results.
+* xref:neutrality.adoc[Neutrality] sets why and how {abbr-fpsot} stays out of every tender.
+* xref:routes.adoc[Routes to market] is informative, and describes the ways to buy that suit open specifications.
+* xref:counsel.adoc[Questions for counsel] is informative, and lists the points that a lawyer must settle first.
+
+== The clause modules
+
+The draft modules live in the folder `clauses/` of this {term-repository}, in English in `clauses/en/` and in French in `clauses/fr/`.
+They are not part of this book.
+Each module is a draft, and says so at its top.
+A buyer must not use a module in a tender before a lawyer reviews it.
+
+[cols="1,3",options="header"]
+|===
+|File |Module
+|`spec-conformance.md` |M01 Spec conformance
+|`conformance-evidence.md` |M02 Conformance evidence
+|`license-ip.md` |M03 License and intellectual property
+|`repository-upstream.md` |M04 Repository and upstream
+|`data-exit.md` |M05 Data and exit
+|`accessibility.md` |M06 Accessibility
+|`language.md` |M07 Language
+|`award-cost.md` |M08 Award and cost, with the cost-element worksheet
+|`security.md` |M09 Security
+|===
+
+The modules are plain-text Markdown files.
+The continuous integration builds each one as an OpenDocument file and a Word file, under PRC-008.
+
+== Two licenses
+
+This specification is under the Community Specification License 1.0, like every {abbr-fpsot} specification.
+The clause modules are under the Creative Commons Attribution 4.0 International license.
+Its full legal code is in `clauses/LICENSE`.
+A buyer may copy, change and publish a module in a tender, provided it credits the source under PRC-006.
+
+== Related specifications
+
+This specification builds on other {abbr-fpsot} specifications.
+The testing specification sets the conformance suites that a module asks for, in TST-044 to TST-048.
+The accessibility specification sets the requirements of a call for tenders, in ACC-055 to ACC-058.
+The security specification sets the bill of materials, the private reporting channel and the `SECURITY.md` file.
+The internationalization specification sets the languages of a product, and the data models specification sets the form of exported data.
+The documentation specification sets the editable formats, in DOC-042, and the copyright notice of each output, in DOC-047.
+
+The future {abbr-fpsot} specifications on code and on capabilities will define building blocks that a tender may also cite.
+This version does not depend on them.
 
 == Conformance
 
@@ -11,23 +70,24 @@ ____
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 (link:https://www.rfc-editor.org/info/rfc2119[RFC 2119], link:https://www.rfc-editor.org/info/rfc8174[RFC 8174]) when, and only when, they appear in all capitals, as shown here.
 ____
 
-The keywords follow requirement WRT-010 of the {abbr-fpsot-first} writing specification.
+The keywords follow requirement WRT-010 of the {abbr-fpsot} writing specification.
 The French version uses the French keywords of WRT-011.
 
-== Requirements
+There are two conformance classes.
 
-Give each requirement an anchor line with its ID, directly above its paragraph.
-The anchor looks like `+[[XYZ-001]]+`.
-The example below shows the form. Replace it with the first requirement.
+* A *clause pack* conforms when it and its modules meet every MUST rule on packs, modules, drafting, content and readiness.
+* *{abbr-fpsot}* conforms as a publisher when it meets every MUST rule on readiness, results and neutrality.
 
-[[TPL-001]]
-*TPL-001.* A normative statement MUST use one of the {abbr-bcp-first} 14 keywords in capitals.
-The keyword gives the rule its strength.
+A tender that a public body writes is not a conforming product of this specification.
+The body may use a module as it sees fit, under its own law.
+
+== Legal status
+
+This specification states the practice of {abbr-fpsot}, and it is not legal advice.
+The modules are drafts, and are not legal advice either.
+Points that need a lawyer sit in informative notes and on the page xref:counsel.adoc[Questions for counsel], never in a rule.
 
 == References
-
-List here each outside source that this page cites, with the same address as its link in the text.
-Each entry gives the title, publisher, version, date and an archived copy.
 
 === Normative
 
@@ -36,10 +96,8 @@ Each entry gives the title, publisher, version, date and an archived copy.
 
 == Document history
 
-Add one row for each version that changes this page.
-
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Change
-|0.1.0 |2026-11-03 |First version.
+|0.1.0 |2026-11-08 |First version.
 |===

@@ -1,0 +1,94 @@
+= État de préparation et résultats
+include::_fpsot-terms.adoc[]
+
+Une clause qui cite une spécification n’est conforme au droit que si plus d’un fournisseur peut la respecter.
+Si le seul produit conforme venait de la {abbr-fpsot-first}, un appel d’offres qui cite la spécification favoriserait une seule source.
+Ces règles fixent quand la {term-clause-pack} d’une spécification peut quitter l’état d’ébauche.
+Elles fixent aussi le registre public des résultats, auquel l’organisation acheteuse compare les soumissions.
+
+== État de préparation d’une spécification
+
+[[PRC-040]]
+*PRC-040.* La {abbr-fpsot} DOIT publier une trousse propre à une spécification seulement quand ces deux conditions sont réunies :
+
+* la spécification définit des classes de conformité, qu’une suite ouverte à tous teste selon TST-044 et TST-046;
+  la suite écrit ses résultats selon TST-048, et ne revendique aucun appui selon TST-047;
+* au moins une implémentation que la fondation n’a pas faite réussit la suite.
+  Son entrée au registre ne doit pas être périmée selon PRC-045.
+  Sinon, au moins deux intégrateurs ont déployé en production le bloc ouvert de la spécification.
+  Une référence publique démontre chaque déploiement.
+
+Deux parties sont indépendantes quand personne ne les contrôle toutes deux et qu’aucune ne sous-traite pour l’autre.
+Chaque intégrateur DOIT être indépendant de la {abbr-fpsot} et des autres intégrateurs.
+Ces conditions montrent que le marché peut respecter la clause.
+L’organisation acheteuse peut alors défendre son appel d’offres contre une plainte de favoritisme envers un fournisseur.
+
+[[PRC-041]]
+*PRC-041.* Tant qu’une spécification ne respecte pas PRC-040, ses modules DOIVENT rester des ébauches génériques.
+Un module générique laisse le nom de la spécification et ses classes dans des champs.
+La fondation NE DOIT PAS publier de module qui remplit ces champs pour une telle spécification.
+Elle NE DOIT PAS présenter de telles clauses comme prêtes pour un appel d’offres.
+Une organisation qui veut citer une telle spécification le fait à ses risques, avec son propre service juridique.
+
+[[PRC-042]]
+*PRC-042.* Chaque trousse propre à une spécification DOIT comprendre un relevé de l’état de préparation.
+Le relevé DOIT donner les classes de conformité, la version de la suite et la date du relevé.
+Il DOIT énumérer chaque implémentation qui a réussi, avec un lien vers son entrée au registre de PRC-044.
+Sinon, il DOIT énumérer chaque intégrateur de PRC-040, avec sa référence publique.
+Si la {abbr-fpsot} a fait la seule implémentation qui a réussi, le relevé DOIT le dire clairement.
+L’organisation peut alors montrer, dans son propre dossier, pourquoi elle a jugé le marché capable de concourir.
+
+[[PRC-043]]
+*PRC-043.* Si une spécification cesse de respecter PRC-040, la {abbr-fpsot} DOIT remettre sa trousse à l’état d’ébauche sous 30 jours.
+Quand une entrée devient périmée selon PRC-045, les 30 jours courent de ce jour.
+La fondation DOIT publier un avis qui donne la raison et la date.
+Cela arrive, par exemple, quand la seule implémentation externe se retire.
+Un appel d’offres déjà publié reste soumis à son propre droit, mais les nouveaux reçoivent un avertissement juste.
+
+== Registre des résultats
+
+[[PRC-044]]
+*PRC-044.* La {abbr-fpsot} DOIT tenir un registre public des résultats de conformité dans un {term-repository}.
+Toute personne qui implémente une spécification DOIT pouvoir y ajouter un résultat par une demande de fusion publique.
+Des vérifications automatisées DOIVENT valider la forme de chaque entrée.
+Elles DOIVENT aussi vérifier que le rapport correspond à une version publiée de la suite.
+Une personne responsable DOIT fusionner chaque entrée qui les réussit, sans la refuser pour un autre motif.
+Le programme de conformité de la link:https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Cloud Native Computing Foundation] fonctionne de la même façon.
+
+Un registre public permet à chaque organisation de vérifier une soumission, et tient la {abbr-fpsot} hors de chaque décision.
+
+[[PRC-045]]
+*PRC-045.* Chaque entrée du registre DOIT donner :
+
+* le nom et la version de l’implémentation, et le nom de son auteur;
+* la spécification, sa version et les classes de conformité testées;
+* la version de la suite et la date de l’exécution;
+* le rapport complet lisible par machine de TST-048;
+* si la {abbr-fpsot} a fait l’implémentation;
+* une adresse de contact publique.
+
+L’auteur DEVRAIT renouveler son entrée à chaque version de l’implémentation, et au moins une fois par année.
+Le registre DOIT marquer une entrée comme périmée après 12 mois.
+Il DOIT faire de même si l’entrée emploie une version de la suite que la fondation ne soutient plus.
+D’anciens résultats décrivent un ancien logiciel, et l’organisation doit voir leur âge.
+
+[[PRC-046]]
+*PRC-046.* La {abbr-fpsot} NE DOIT PAS évaluer, classer, approuver ni appuyer une soumission, une entreprise ou un produit.
+Elle NE DOIT PAS répondre à une question sur une soumission donnée.
+Elle DOIT renvoyer une telle question au registre et aux canaux publics de PRC-052.
+Une inscription au registre NE DOIT PAS être une condition d’une soumission, selon PRC-021.
+Une éditrice neutre garde ses spécifications utilisables par chaque fournisseur.
+
+== Références
+
+=== Références informatives
+
+* link:https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Instructions, Certified Kubernetes Conformance Program], Cloud Native Computing Foundation. link:https://web.archive.org/web/20261003000011/https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===

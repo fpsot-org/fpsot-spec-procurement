@@ -1,15 +1,86 @@
-= Guide
-:page-type: explanation
+= Citer une spécification FPSOT dans un appel d’offres
+:page-type: how-to
 include::_fpsot-terms.adoc[]
 
-Cette page explique la spécification aux personnes qui l’adoptent.
-Chaque page de guide a un seul type.
-C’est un tutoriel, un guide pratique, une référence ou une explication.
+Ce guide mène une organisation acheteuse publique du choix d’une spécification à la notation des soumissions.
+Il emploie les ébauches de modules de clauses de la {abbr-fpsot-first}.
+Chaque étape cite la règle sur laquelle elle repose.
+Les modules sont des ébauches et ne constituent pas un avis juridique.
+Votre service juridique doit donc examiner votre appel d’offres.
+
+== Avant de commencer
+
+Vérifiez si la {abbr-fpsot} a publié une {term-clause-pack} pour la spécification dont vous avez besoin, selon PRC-040.
+Une trousse propre à une spécification n’existe que si une implémentation que la {abbr-fpsot} n’a pas faite réussit la suite.
+Deux intégrateurs indépendants qui ont déployé le bloc ouvert en production peuvent aussi remplir cette condition.
+Sans elle, seuls les modules génériques existent, et votre risque juridique augmente.
+Lisez la page « Questions pour un avis juridique » de cette spécification, et remettez-la à votre juriste.
+
+Trouvez votre régime juridique, selon PRC-015 :
+
+* un organisme public du Québec, comme un ministère ou un organisme scolaire ou de santé, emploie la variante {abbr-rcti-first};
+* un organisme municipal du Québec emploie la variante {abbr-lcom-first};
+* un ministère fédéral emploie la variante fédérale.
+
+Au Québec, employez le texte français de chaque module et de la spécification, selon PRC-005.
+
+== Choisir la spécification et ses classes
+
+Choisissez la version exacte de la spécification, selon PRC-020.
+Choisissez chaque {term-conformance-class} qu’exige votre besoin.
+À partir de la version 1.0.0, décidez si vous acceptez une version mineure plus récente de la même version majeure.
+Avant la version 1.0.0, n’acceptez que des versions correctives plus récentes.
+Notez le besoin fonctionnel derrière votre choix, comme l’interopérabilité ou une sortie sans heurt, selon PRC-023.
+
+== Insérer les modules
+
+Copiez les modules M01 et M02 de `clauses/fr/` ou de `clauses/en/`, ou ouvrez leurs fichiers Word ou OpenDocument.
+Remplissez chaque champ entre crochets, selon PRC-013.
+Gardez la mention « ou l’équivalent » chaque fois que le texte nomme la spécification ou la suite, selon PRC-022.
+N’ajoutez jamais le nom d’un produit, y compris un logiciel de la {abbr-fpsot}, selon PRC-021.
+
+Une clause du module M01, avec ses champs encore vides, pourrait se lire ainsi.
+
+[source,text]
+----
+La solution doit être conforme à la spécification FPSOT sur [nom],
+version [1.0], classes de conformité [serveur] et [client], ou l'équivalent.
+L'entreprise n'a pas à employer de logiciel de la FPSOT.
+----
+
+Ajoutez les autres modules qu’exige votre besoin : licence, dépôt, données et sortie, accessibilité, langue et sécurité.
+Chaque module donne ses propres champs et choix dans sa note de rédaction.
+
+== Fixer l’adjudication et les coûts
+
+Employez le module M08.
+Faites de chaque classe de conformité exigée une condition éliminatoire, selon PRC-038.
+Gardez ou changez les pondérations par défaut, et vérifiez qu’elles totalisent 100.
+Remplissez le tableau des éléments de coût avant de publier l’appel d’offres, selon PRC-039.
+
+Selon le {abbr-rcti}, les documents d’appel d’offres doivent nommer ces éléments d’avance.
+Selon la {abbr-lcom}, le tableau sert seulement à évaluer le besoin, car les prix ne peuvent pas encore les inclure.
+Comparez le tableau des seuils aux valeurs en vigueur à la date de votre appel d’offres, selon PRC-018.
+
+== Nettoyer et faire examiner
+
+Retirez chaque note de rédaction.
+Gardez la mention de la source de chaque module, selon PRC-006.
+Retirez la mention d’ébauche seulement après l’approbation de votre service juridique.
+Posez toute question ouverte par les canaux publics de la {abbr-fpsot}, selon PRC-052, car elle n’offre aucune aide privée.
+
+== Évaluer les soumissions
+
+Vérifiez que chaque soumission contient une {term-conformance-statement} et un rapport de la suite, ou un rapport d’essai équivalent, selon PRC-024.
+Traitez la déclaration comme une condition éliminatoire, et le rapport comme la preuve.
+Évaluez chaque équivalent sur le même pied que les autres soumissions, selon PRC-022.
+Vous pouvez comparer une soumission au registre public des résultats, mais sans exiger d’inscription, selon PRC-046.
+Après l’adjudication, exécutez la même suite dans vos essais d’acceptation, selon PRC-025.
 
 == Historique du document
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
-|0.1.0 |2026-11-03 |Première version.
+|0.1.0 |2026-11-08 |Première version.
 |===

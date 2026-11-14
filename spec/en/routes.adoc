@@ -1,0 +1,77 @@
+= Routes to market
+include::_fpsot-terms.adoc[]
+
+This page is informative.
+It sets no rule, and it is not legal advice.
+A tender helps one buyer at a time.
+Some ways to buy let a single check of conformance serve many buyers, and this page describes them.
+A lawyer must confirm each point before a buyer relies on it.
+
+The article numbers on this page come from a link:https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[consolidated text] of the {abbr-rcti-first}.
+Publications du Québec published it, current to 2026-10-02.
+Under PRC-016, a lawyer must still verify each number.
+
+== Homologation of goods
+
+The {abbr-rcti} lets a public body run a {term-homologation} before a tender.
+The body checks that a good conforms to a recognized standard or to an established technical specification.
+A later tender may then admit only the goods on the list.
+An {abbr-fpsot-first} conformance class, with its suite, fits the idea of an established technical specification.
+The text that the foundation read puts these rules in articles 51 to 53.
+It asks for a new notice at least once a year.
+
+A body could homologate conforming products once, then buy among them on price, or on price and quality.
+The government purchasing center could do the same for many bodies.
+
+== Price request to qualified suppliers
+
+Since the reform of 2025, a body may qualify suppliers first, then ask only them for a price.
+The text that the foundation read places this route in articles 54 to 56.8 of the {abbr-rcti}.
+A qualification can rest on conformance evidence, such as the statement and report of PRC-024.
+The price request then stays short.
+
+== Competitive dialogue
+
+The {abbr-rcti} lets a body hold a competitive dialogue when its need is highly complex.
+The head of the body must approve it.
+The body refines a solution with each selected bidder, while an independent verifier watches the process.
+Each bidder then makes a final offer.
+The text that the foundation read places this route in article 19.
+It suits a registry or another system that a body cannot fully describe in advance.
+
+== The innovation space
+
+The government procurement strategy of Québec for 2026 to 2030 plans tests of new ways to award contracts.
+It names awards that look at the whole life cycle, and awards based on value.
+It also asks bodies to reduce their dependence on exclusive rights.
+Open specifications lower the costs of exit and migration, and a life-cycle award counts these costs.
+The foundation could propose a pilot of its clause packs to this innovation space.
+
+== Municipal bodies
+
+Since 2026-04-01, municipal bodies buy under the {abbr-lcom-first}.
+The link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[guide on the act] of the ministry of municipal affairs describes homologation and qualification.
+It also says that a municipal body must describe its needs by performance and function, or else accept equivalents.
+It places that duty in article 41 of the act, which a lawyer must verify.
+
+== Ontario
+
+The link:https://www.ontario.ca/page/ontarios-digital-and-data-directive-2021[digital and data directive] of Ontario requires its ministries to put its digital service standard into their procurement documents.
+A later version of the packs could map each module to an item of that standard.
+This version names the route only.
+
+== References
+
+=== Informative
+
+* link:https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Règlement sur les contrats des organismes publics en matière de technologies de l'information, chapitre C-65.1, r. 5.1], Publications du Québec, consolidated text current to 2026-10-02. link:https://web.archive.org/web/20251013203306/https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf[Archived copy of an earlier version]
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Gestion contractuelle municipale, Guide explicatif Muni-Express, Loi sur les contrats des organismes municipaux], Ministère des Affaires municipales et de l'Habitation, 2nd edition, 2026. link:https://web.archive.org/web/20260516045028/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/muni_express/GUI_muni_express_lcom.pdf[Archived copy]
+* link:https://www.ontario.ca/page/ontarios-digital-and-data-directive-2021[Ontario's Digital and Data Directive, 2021], Government of Ontario. link:https://web.archive.org/web/20260828113235/https://www.ontario.ca/page/ontarios-digital-and-data-directive-2021[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

@@ -1,0 +1,92 @@
+= Readiness and results
+include::_fpsot-terms.adoc[]
+
+A clause that cites a specification is lawful only if more than one supplier can meet it.
+If the only conforming product came from the {abbr-fpsot-first}, a tender that cites the specification would favor one source.
+These rules set when a {term-clause-pack} for one specification may leave draft status.
+They also set the public register of results that buyers check bids against.
+
+== Readiness of a specification
+
+[[PRC-040]]
+*PRC-040.* {abbr-fpsot} MUST publish a spec-specific {term-clause-pack} only when both of these conditions hold:
+
+* the specification defines {term-conformance-class}es, and a conformance suite that anyone can run tests them, under TST-044 and TST-046;
+  the suite writes its results under TST-048, and makes no claim of endorsement under TST-047;
+* at least one implementation that the foundation did not make passes the suite.
+  Its entry in the register must not be out of date under PRC-045.
+  Or else, at least two integrators have deployed the open building block in production.
+  A public reference shows each deployment.
+
+Two parties are independent when no one controls both, and neither is a subcontractor of the other.
+Each integrator MUST be independent of {abbr-fpsot} and of the other integrators.
+These conditions show that the market can meet the clause.
+A buyer can then defend its tender against a complaint that it favors one supplier.
+
+[[PRC-041]]
+*PRC-041.* Until a specification meets PRC-040, its modules MUST stay generic drafts.
+A generic module leaves the name of the specification and its classes as fields.
+The foundation MUST NOT publish a module that fills in such a specification.
+It MUST NOT present such clauses as ready for a tender.
+A buyer that wants to cite such a specification does so at its own risk, with its own counsel.
+
+[[PRC-042]]
+*PRC-042.* Each spec-specific pack MUST include a record of readiness.
+The record MUST give the conformance classes, the release of the suite and the date of the record.
+It MUST list each implementation that passed, with a link to its entry in the register of PRC-044.
+Otherwise, it MUST list each integrator of PRC-040, with its public reference.
+When {abbr-fpsot} made the only implementation that passed, the record MUST say so in plain words.
+A buyer can then show, in its own file, why it judged the market able to compete.
+
+[[PRC-043]]
+*PRC-043.* When a specification stops meeting PRC-040, {abbr-fpsot} MUST mark its pack as a draft again, within 30 days.
+When an entry goes out of date under PRC-045, the 30 days start on that day.
+The foundation MUST publish a notice that gives the reason and the date.
+This happens, for example, when the only outside implementation withdraws.
+A tender that a buyer already published stays under its own law, but new tenders get a fair warning.
+
+== Register of results
+
+[[PRC-044]]
+*PRC-044.* {abbr-fpsot} MUST keep a public register of conformance results in a {term-repository}.
+Any implementer MUST be able to add a result through a public pull request.
+Automated checks MUST verify the form of each entry, and that the report matches a published suite release.
+A maintainer MUST merge each entry that passes the checks, and MUST NOT refuse an entry on any other ground.
+The conformance program of the link:https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Cloud Native Computing Foundation] works in the same way.
+A public register lets every buyer check a bid, and keeps {abbr-fpsot} out of each decision.
+
+[[PRC-045]]
+*PRC-045.* Each entry of the register MUST give:
+
+* the name and version of the implementation, and the name of the implementer;
+* the specification, its version and the conformance classes tested;
+* the suite release and the date of the run;
+* the full machine-readable report of TST-048;
+* whether {abbr-fpsot} made the implementation;
+* a public contact.
+
+The implementer SHOULD renew its entry with each release of the implementation, and at least once a year.
+The register MUST mark an entry as out of date after 12 months.
+It MUST do the same when the entry used a suite release that the foundation no longer supports.
+Old results describe old software, so the buyer must see their age.
+
+[[PRC-046]]
+*PRC-046.* {abbr-fpsot} MUST NOT assess, rank, approve or endorse any bid, any bidder or any product.
+It MUST NOT answer a question about a given bid.
+It MUST point any such question to the register and to the public channels of PRC-052.
+A listing in the register MUST NOT be a condition of any bid, under PRC-021.
+A neutral publisher keeps its specifications usable by every supplier.
+
+== References
+
+=== Informative
+
+* link:https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Instructions, Certified Kubernetes Conformance Program], Cloud Native Computing Foundation. link:https://web.archive.org/web/20261003000011/https://github.com/cncf/k8s-conformance/blob/master/instructions.md[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===

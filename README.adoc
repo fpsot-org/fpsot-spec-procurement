@@ -1,33 +1,32 @@
-= FPSOT specification template
+= FPSOT procurement specification
 
-This repository is the starting point for an FPSOT specification.
-Create a new repository from it, then replace this text.
-
-== Start a specification
-
-. Set `SPEC_PREFIX` in `.github/workflows/ci.yml` to the three-letter prefix of the requirement IDs.
-. Replace the titles in `spec/`, `docs/antora.yml`, `publiccode.yml`, `AGENTS.md`, `NOTICE` and `skill/SKILL.md`.
-. Replace the example requirement TPL-001 and the example row in `jurisdictions/baseline.yaml`.
-. List each spec page in `spec/<lang>/book.adoc`. The glossary stays the last include.
-
-Each page ends with a document history.
-Each guide page sets `:page-type:` to tutorial, how-to, reference or explanation.
-Write abbreviations and defined terms as `{abbr-…}` and `{term-…}` from the term base of `fpsot-spec-writing`.
-Write English in US spelling.
-Each page that cites outside sources ends with a References section, right before its document history.
-Each code block names its language, such as `[source,text]` or `[source,plantuml]`.
-The continuous integration writes `_fpsot-terms.adoc`, the glossaries and the comparison pages. Git ignores them.
+Rules for the procurement material of FPSOT: the draft clause modules that public bodies paste into their own tenders, and the rules that keep those modules lawful and neutral.
+Every module requires conformance to a versioned FPSOT specification and its conformance classes, proven by an open test suite or equivalent evidence.
+No module ever requires FPSOT software, and "or equivalent" is always there.
+FPSOT takes no contracts and bids on no tender.
+Version 0.1 is a draft, and the clause modules are drafts that must not be used in a tender before legal review.
 
 == Implement this spec
 
 Read the normative text in `spec/en/` or `spec/fr/`.
-Each requirement has an ID, such as `XYZ-001`.
-Check your implementation against every requirement.
+Each requirement has an ID from `PRC-001` to `PRC-052`.
+The rules bind two parties: the authors of clause packs, and FPSOT as the publisher.
+
+* Write each module in English and French, with the draft banner, the license line, a drafting note, variants by legal regime and a list of fields (PRC-004 to PRC-016).
+* Cite a specification with its exact version and conformance classes, add "or equivalent" each time, and never name a product (PRC-020 to PRC-022).
+* Publish a pack for one specification only when an implementation that FPSOT did not make passes its suite, or when two independent integrators can deploy it (PRC-040).
+* Keep the public register of results open to any implementer, and never judge a bid (PRC-044 to PRC-046).
+* Stay out of every tender, and help buyers only in public (PRC-050 to PRC-052).
 
 == Adopt this spec
 
-Read the guides in `docs/modules/en/pages/` or `docs/modules/fr/pages/`.
-They explain what the spec gives your organization and how to require it.
+Read the guide in `docs/modules/en/pages/index.adoc` or `docs/modules/fr/pages/index.adoc`.
+It shows a buyer how to cite an FPSOT specification in a tender, from the choice of variant to the evaluation of bids.
+The draft modules are in `clauses/en/` and `clauses/fr/`.
+The continuous integration builds each one as an OpenDocument file and a Word file, in the artifact `clauses` of each run.
+In Québec, use the French text.
+Read the page `counsel.adoc` with your lawyer first: it lists the legal questions that remain open.
+The comparison data in `jurisdictions/` shows how Canada and Québec handle the same topics.
 
 == Layout
 
@@ -36,10 +35,16 @@ They explain what the spec gives your organization and how to require it.
 | Folder | Content
 
 | `spec/`
-| Normative text, in English and French. `book.adoc` joins the pages into one book.
+| Normative text, in English and French. `book.adoc` joins the pages into one book, published as PDF with each release. The book does not include the clause modules.
+
+| `clauses/`
+| The draft clause modules, in `en/` and `fr/`, as Markdown, with `pack.md` and the CC BY 4.0 legal code in `LICENSE`.
 
 | `docs/`
 | Guides, in the Antora folder layout.
+
+| `scripts/`
+| The check of the clause modules, its tests, and the build of their editable formats.
 
 | `skill/`
 | The agent skill: a short summary that cites requirement IDs.
@@ -51,11 +56,16 @@ They explain what the spec gives your organization and how to require it.
 | PlantUML sources and their rendered SVG files.
 
 | `jurisdictions/`
-| Comparison data per jurisdiction. `baseline.yaml` lists the compared requirements.
+| Comparison data: how each government handles the same topics.
 |===
 
-== License
+== Licenses
 
-The specification is under the Community Specification License 1.0.
-Source code is under the Apache License 2.0.
-See `LICENSE.md` and `NOTICE`.
+This repository holds texts under two licenses.
+
+* The specification, in `spec/` and `docs/`, is under the Community Specification License 1.0, like every FPSOT specification. Its patent terms protect implementers. See `LICENSE.md`.
+* The clause modules, in `clauses/`, are under the Creative Commons Attribution 4.0 International license. A buyer, a bidder or an integrator may copy, adapt and publish them, including in a commercial setting, provided it credits the source and states its changes. The full legal code is in `clauses/LICENSE`. Each module gives a credit line to use.
+
+Source code, such as the scripts in `scripts/`, is under the Apache License 2.0.
+The PDF book holds the specification only, so it carries the Community Specification License alone.
+The book links to the clause modules instead of including them.

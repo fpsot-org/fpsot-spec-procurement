@@ -1,0 +1,108 @@
+= Règle de rédaction
+include::_fpsot-terms.adoc[]
+
+Une seule règle garde les modules conformes au droit.
+Un appel d’offres exige la conformité à une spécification, jamais un produit.
+Au Canada, au Québec et ailleurs, le droit des marchés publics demande de décrire les besoins par leur fonction.
+Quand un appel d’offres nomme une norme ou une marque, il doit accepter un équivalent.
+Ces règles appliquent ce principe à chaque module qui cite une spécification de la {abbr-fpsot-first}.
+
+== Citer la spécification, pas un produit
+
+[[PRC-020]]
+*PRC-020.* Un module qui exige la conformité DOIT nommer la spécification de la {abbr-fpsot} et sa version exacte.
+Il DOIT aussi nommer chaque {term-conformance-class} qu’exige l’organisation acheteuse.
+Il NE DOIT PAS accepter une version majeure plus récente sans nouvelle décision.
+Une version majeure peut en effet rompre la conformité.
+Une version exacte dit à chaque entreprise ce qu’elle doit respecter, et permet à l’organisation de le tester.
+
+À partir de la version 1.0.0, un module PEUT accepter une version mineure plus récente de la même version majeure.
+L’organisation le choisit alors dans un champ.
+Avant la version 1.0.0, il PEUT accepter seulement les versions correctives plus récentes de la même version mineure.
+Selon link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], une version 0.x peut tout changer dans une version mineure.
+
+[[PRC-021]]
+*PRC-021.* Un module NE DOIT PAS exiger de logiciel de la {abbr-fpsot} ni d’implémentation nommée.
+Il NE DOIT PAS exiger de marque ni de nom commercial.
+Il NE DOIT PAS exiger l’adhésion à un programme, un certificat de la {abbr-fpsot} ni une inscription à son registre.
+Chaque module qui cite une spécification DOIT indiquer que l’entreprise n’a pas à employer de logiciel de la {abbr-fpsot}.
+Un appel d’offres qui nomme un produit favorise son fournisseur, et le Québec en a annulé pour cette raison.
+Un appel d’offres qui nomme une spécification permet à tout fournisseur de concourir.
+
+[[PRC-022]]
+*PRC-022.* Chaque fois qu’un module nomme une spécification, une suite ou une autre norme, il DOIT ajouter `ou l'équivalent`.
+En anglais, il DOIT ajouter `or equivalent`.
+Le module DOIT définir un équivalent comme une solution qui respecte les mêmes exigences de la même version.
+L’entreprise PEUT le démontrer avec la même version de la suite, ou avec un rapport d’essai équivalent.
+Le module DOIT exiger que l’organisation évalue chaque équivalent sur le même pied que toute autre soumission.
+L’entreprise doit savoir comment l’organisation juge l’équivalence, et une suite publique fournit ce critère.
+
+[[PRC-023]]
+*PRC-023.* La note de rédaction de chaque module DOIT énoncer le besoin fonctionnel que la clause satisfait.
+Par exemple, l’interopérabilité avec d’autres systèmes, la réversibilité à la fin du contrat ou la réutilisation par d’autres organismes publics.
+Un module NE DOIT PAS présenter une clause comme une préférence pour le logiciel libre ou un type de fournisseur.
+Au Québec, une loi demande aux organismes publics de considérer les logiciels libres, mais ne fixe aucune préférence.
+Une clause fondée sur un besoin résiste mieux à une plainte qu’une clause fondée sur une préférence.
+
+== Preuve de conformité
+
+[[PRC-024]]
+*PRC-024.* Un module DOIT demander à chaque entreprise deux éléments de preuve :
+
+* une {term-conformance-statement}, qui répond oui ou non pour chaque classe exigée;
+* le rapport lisible par machine de la suite de conformité, qui nomme la version de la suite selon TST-046.
+Le rapport donne le résultat de chaque exigence selon TST-048.
+
+Le module DOIT accepter, au lieu du rapport de la suite, un rapport d’essai équivalent selon PRC-022.
+Les parties que permet PRC-026 PEUVENT produire ce rapport.
+Une déclaration seule NE DOIT PAS valoir preuve de conformité.
+La déclaration fixe ce que l’entreprise promet, et le rapport montre ce qu’un essai a trouvé.
+
+[[PRC-025]]
+*PRC-025.* Un module DOIT traiter la déclaration de conformité comme une condition éliminatoire de la soumission.
+Un rapport qui montre l’échec d’une exigence d’une classe exigée DOIT aussi entraîner le rejet de la soumission.
+Il DEVRAIT permettre à l’organisation d’exécuter la même suite sur la solution livrée, dans ses essais d’acceptation.
+Il PEUT lui permettre d’essayer la soumission la mieux classée avant l’adjudication.
+Un produit peut annoncer une fonction sans la fournir, d’où la vérification par l’organisation elle-même.
+
+[[PRC-026]]
+*PRC-026.* Un module DOIT dire qui peut exécuter la suite.
+Ce peut être l’entreprise, un tiers qu’elle choisit, ou l’organisation acheteuse.
+Les mêmes parties DOIVENT pouvoir produire un rapport d’essai équivalent, sans condition d’indépendance plus stricte.
+Il NE DOIT PAS exiger que la {abbr-fpsot} exécute, vérifie ou approuve un essai.
+La {abbr-fpsot} ne juge aucune soumission, selon PRC-046.
+Une suite qui s’exécute partout garde bas le coût de la preuve pour les petites entreprises.
+
+[[PRC-027]]
+*PRC-027.* Un module DOIT exiger un plan daté pour corriger chaque exigence échouée d’une classe facultative offerte.
+Il DOIT exiger de même pour une régression d’une classe exigée après l’acceptation.
+Il DOIT exiger une nouvelle déclaration et un nouveau rapport à chaque version majeure ou mineure de la solution.
+Il DOIT aussi les exiger au moins une fois par année.
+Si rien n’a changé, le fournisseur PEUT plutôt le confirmer par écrit.
+
+Le gouvernement fédéral emploie le même cycle dans son link:https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-FR.html[modèle d’approvisionnement accessible].
+La conformité peut baisser à chaque mise à jour, sauf si le contrat y oblige le fournisseur.
+
+[[PRC-028]]
+*PRC-028.* Un module NE DOIT PAS présenter un résultat de suite comme une certification ou un appui de la {abbr-fpsot}.
+Cette règle applique TST-047 au texte d’un appel d’offres.
+Une suite vérifie les comportements qu’elle couvre, et rien de plus.
+L’organisation doit quand même évaluer la qualité, la sécurité et le soutien selon ses propres critères.
+
+== Références
+
+=== Références normatives
+
+* link:https://semver.org/spec/v2.0.0.html[Semantic Versioning 2.0.0], Tom Preston-Werner, 2.0.0, 2013-06-18. link:https://web.archive.org/web/20261026045444/https://semver.org/spec/v2.0.0.html[Copie archivée]
+
+=== Références informatives
+
+* link:https://gccatalogue.alpha.canada.ca/patterns/accessibilityprocurement-FR.html[Déclaration d'accessibilité, modèle de contrat], gouvernement du Canada, Catalogue du GC, 2024-11-20. link:https://github.com/gcdigitalpolicy/gccatalogue/blob/a2a8a70282bb2c79a0bec921b936ba2828d3a7f7/patterns/accessibilityprocurement-FR.html[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-08 |Première version.
+|===

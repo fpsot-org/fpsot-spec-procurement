@@ -1,0 +1,98 @@
+= Clause packs
+include::_fpsot-terms.adoc[]
+
+A {term-clause-pack} is the set of {term-clause-module}s that serve one release of one {abbr-fpsot-first} specification.
+A public body copies the modules into its own tender documents.
+These rules set what a pack is and how it relates to its specification.
+They also set the languages and the license of its text.
+
+[[PRC-001]]
+*PRC-001.* A {term-clause-pack} MUST be a companion to one release of one {abbr-fpsot} specification.
+It MUST name that specification and its version.
+It MUST NOT be normative, and MUST NOT add a requirement that the specification lacks.
+A module MAY choose among the conformance classes and options that the specification offers.
+The specification stays the only source of each technical requirement.
+A buyer then reads one rule in one place, and a pack cannot drift from its specification.
+
+[[PRC-002]]
+*PRC-002.* Each pack and each module MUST state that only the normative {abbr-fpsot} specification is the mandatory reference.
+It MUST also tell the buyer to cite the specification in a tender.
+A tender must not cite the pack or a guide as a required technology.
+The link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[OGC software acquisition guide] carries a similar warning.
+A tender that names a guide as a requirement would bind bidders to text that nobody tests.
+
+[[PRC-003]]
+*PRC-003.* The major and minor numbers of a pack MUST match those of the specification release that it serves.
+The foundation MUST publish a new pack with each specification release that changes a conformance class or a cited rule.
+A pack MAY have its own patch releases, for wording fixes that do not change the meaning of a clause.
+The rule follows TST-046, which ties each conformance suite to a specification version in the same way.
+A buyer can then match a pack, a specification and a suite at a glance.
+
+[[PRC-004]]
+*PRC-004.* Each module MUST exist in English and in French, in files with the same name under `clauses/en/` and `clauses/fr/`.
+The two versions MUST have the same sections, variants, fields and obligations.
+A difference in meaning between them is a defect, and {abbr-fpsot} MUST fix it in a patch release.
+Writing rule WRT-033 applies, so a machine translation can only be a first draft.
+Most buyers in Québec work in French, and many outside Québec work in English.
+
+[[PRC-005]]
+*PRC-005.* Each pack MUST state that its French text is the reference version for use in Québec.
+It MUST also state that the French text of the specification is the reference for such use.
+For use elsewhere, both languages MUST have the same standing.
+The Charter of the French language requires French for the contracts of the Québec administration and their related writings.
+The link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[guide on contracts] of the Québec ministry of the French language explains this rule.
+A tender in Québec must therefore rest on French text.
+
+[[PRC-006]]
+*PRC-006.* The text of each module MUST be under the link:https://creativecommons.org/licenses/by/4.0/legalcode[Creative Commons Attribution 4.0 International] license.
+The modules MUST sit in the folder `clauses/`.
+The file `clauses/LICENSE` MUST hold the full legal code from Creative Commons.
+The specification itself MUST stay under the {abbr-csl-first}.
+Each module MUST suggest a short credit line that a buyer can place in its tender.
+A buyer may then adapt and publish a module, and the patent terms of the {abbr-csl} stay on the specification.
+
+Each pack MUST state that a credit in the procurement file, or in an annex of the tender, is reasonable.
+It MUST also ask that no credit appear in the signed contract itself.
+Section `3(a)(3)` of the license lets the licensor make this request.
+A contract then carries only the terms of the parties.
+
+[[PRC-007]]
+*PRC-007.* Each module file MUST carry, near its top, a one-line notice of its copyright and license.
+In English, the line MUST read `© <year> The FPSOT Authors. Licensed under CC BY 4.0.`.
+In French, it MUST read `© <year> Les auteurs de la FPSOT. Publié sous la licence CC BY 4.0.`.
+This applies DOC-047 to a file that a buyer may receive alone.
+A module that travels by email still tells its reader how they may reuse it.
+
+[[PRC-008]]
+*PRC-008.* A project MUST keep each module as a plain-text file under version control.
+It MUST generate the editable formats of the module from that file.
+The continuous integration MUST build each module as an OpenDocument text file and as a Word file.
+It MUST use a fixed release of the conversion tool, and MUST check the tool against its published checksum.
+The modules are the templates for requests for proposals of DOC-042, the only outputs with editable formats.
+A plain-text source shows each change in a pull request, and buyers still get files that office tools open.
+
+[[PRC-009]]
+*PRC-009.* Each pack and each module MUST state that it is not legal advice.
+A module MUST NOT state a legal point as a fact unless its drafting note cites the source.
+A point that needs a lawyer MUST go in the drafting note, or on the page xref:counsel.adoc[Questions for counsel].
+Procurement law differs by regime and changes often.
+A buyer must check each clause with its own counsel.
+
+== References
+
+=== Normative
+
+* link:https://creativecommons.org/licenses/by/4.0/legalcode[Creative Commons Attribution 4.0 International Public License], Creative Commons, 4.0, 2013-11-25. link:https://web.archive.org/web/20261103183907/https://creativecommons.org/licenses/by/4.0/legalcode[Archived copy]
+
+=== Informative
+
+* link:https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Contrats], Ministère de la Langue française, updated 2026-06-01. link:https://web.archive.org/web/20230608021059/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/emissaires/Guide_Contrats.pdf[Archived copy of an earlier version]
+* link:https://docs.ogc.org/wp/15-002r5/15-002r5.html[OGC 15-002r5, OGC Compliance Overview, Guide for Software Acquisition], Open Geospatial Consortium, r5, 2015-04-20. link:https://web.archive.org/web/20261028134225/https://docs.ogc.org/wp/15-002r5/15-002r5.html[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-08 |First version.
+|===
